@@ -269,9 +269,9 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "Soekarno";
-Q.chancellor = "Soekiman Wirjosandjojo";
+Q.chancellor = "Mohammad Natsir";
 Q.chancellor_party = 'Masyumi';
-Q.pni_in_government = 1;
+Q.pni_in_government = 0;
 Q.masyumi_in_government = 1;
 Q.psi_in_government = 1;
 Q.psii_in_government = 1;
@@ -475,8 +475,8 @@ Q.wels_advisor = 1; // Otto Wels
 Q.muller_advisor = 1; // Hermann Müller
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
-Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.crispien_advisor = 1; // Arthur Crispien
+Q.hilferding_advisor = 0; // Rudolf Hilferding
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender
@@ -565,6 +565,6 @@ go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
 It is a bright time for the Indonesian nation. After a period of struggle, the United States of Indonesia has been dissolved and we have finally secured our sovereignty. Currently, our situation is dire. Hyperinflation and economic deficit is plaguing our economy and our nascent democracy is highly unstable. 
 
-Now, our task is to form a Konstituante to draft a new constitution for the young Indonesian nation. The <span style="color: #006600;">Masyumi</span>-led cabinet of Soekiman is unpopular, and we stand to gain. Perhaps the next cabinet can brought over stability for our nation.
+Now, our task is to form a Konstituante to draft a new constitution for the young Indonesian nation. The <span style="color: #006600;">Masyumi</span>-led cabinet of Natsir is unpopular, and we stand to gain. Perhaps the next cabinet can brought over stability for our nation.
 
 
