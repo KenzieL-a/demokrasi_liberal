@@ -45,7 +45,7 @@ Konstituante composition:
 # 1928: 10, 1930: 13
 {!<span class="tooltip-text" title="Communist Party of Germany">PKI</span>!}: [+ PKI_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="German Democratic Party">!}PSI: [+ PSI_name +]?]{!</span>!}: [+ PSI_r +]%
+{!<span class="tooltip-text" title="German Democratic Party">PSI</span>!}: [+ PSI_r +]%
 # 1928: 9, 1930: 5
 {!<span class="tooltip-text" title="German People's Party">PSII</span>!}: [+ PSII_r +]%
 # 1928: 14, 1930: 7
