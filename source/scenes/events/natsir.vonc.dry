@@ -1,7 +1,7 @@
-title: <span style="color: #000000;">Bourgeois</span>-<span style="color: #3E88B3;">Right</span> Government Collapses!
+title: Hadikusumo's Motion Passes!
 subtitle: New elections scheduled
 new-page: true
-view-if: year = 1951 and month >= 2
+view-if: year = 1951 and month = 2
 tags: event
 max-visits: 1
 
