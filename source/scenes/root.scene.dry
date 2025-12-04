@@ -94,7 +94,7 @@ Q.psi_relation = 60;
 Q.psii_relation = 45;
 Q.kristen_relation = 52;
 Q.katolik_relation = 52;
-Q.pki_relation = 63;
+Q.pki_relation = 42;
 
 Q.pki_leader = "Thälmann";
 // alternative is the Conciliators as party leader
