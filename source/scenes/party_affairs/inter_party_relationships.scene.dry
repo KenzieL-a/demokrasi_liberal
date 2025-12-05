@@ -24,7 +24,7 @@ The <span style="color: #990000;">**PNI**</span> cannot govern by itself yet, be
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 1; pki_inter_party_seen += 1
+on-arrival: resources -= 1; pki_relation += 5*(1 - dissent); sidik_strength += 3
 
 The <span style="color: #c00000;">**Communists**</span> have always been our close ally, but we never get the chance to be in government together with them. However this may change.
 
@@ -41,7 +41,7 @@ Though electorally small, allying the smaller parties like the <span style="colo
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 1; masyumi_relation += 5*(1 - dissent); psii_relation += 3*(1 - dissent)
+on-arrival: resources -= 1; masyumi_relation += 5*(1 - dissent); psii_relation += 3*(1 - dissent); wilopo_strength += 3
 
 Even though we have always been in government with them, our relations remain cold, especially of the <span style="color: #000000;">**Masyumi**</span>. However this may change.
 
