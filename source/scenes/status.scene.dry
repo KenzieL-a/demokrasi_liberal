@@ -112,7 +112,7 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 <span style="color: #000000;">**Masyumi**</span>: [+ masyumi_votes +]%
 
-<span style="color: #9c00000;">**PKI**</span>: [+ pki_votes +]%
+<span style="color: #c00000;">**PKI**</span>: [+ pki_votes +]%
 
 <span style="color: #FF6666;">**PSI**</span>: [+ psi_votes +]%
 
