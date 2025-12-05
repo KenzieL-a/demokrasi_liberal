@@ -1,19 +1,28 @@
-title: Hadikusumo's Motion Passes!
-subtitle: New elections scheduled
+title: The Natsir Cabinet Falls!
+subtitle: Prime minister Natsir returns his mandate back to the President.
 new-page: true
-view-if: year = 1951 and month >= 2
+view-if: year = 1951 and month >= 3
 frequency: 1000
 tags: event
 max-visits: 1
 
-= Vote of No Confidence Passes!
+= The Natsir Cabinet Falls!
 
-Our motion delivered by Hadikusumo has been passed by the parliament! Hadikusumo's motion demanded the revocation of Government Regulation No. 39 of 1950 concerning the election of members of DPRDs because it is deemed "undemocratic".
-
-Prime minister Natsir is expected to return his mandate back to the President on 21 March. 
+On March 22, the parliament was to discuss the Prime Minister's statement regarding the Hadikusumo Motion, but a quorum could not be assembled as the opposition boycotted this session. On the same day, the <span style="color: #FF9933;">**PIR**</span> has officially withdrawn support for the Natsir cabinet, and has asked two of its ministers, Wongsonegoro and Herman Johannes, to resign. By this point, the cabinet has decided that it could no longer continue in office and thus they had resigned.
 
 - @good: Great!
 
 @good
 
-Now, our task is to form a new cabinet to replace Natsir's. We would most likely need to cooperate with the <span style="color: #000000;">Masyumi</span>, so perhaps it is best to warm up our relations with the them.
+The President has appointed Sartono, a prominent <span style="color: #990000;">**PNI**</span> member and chairman of parliament, to form "a national coalition cabinet on a broad basis."
+
+- @sartono_succeed: Sartono manages to form a cabinet!
+- @sartono_fails: Sartono fails to form a cabinet in time!
+
+@sartono_succeed
+choose-if: year = 1969
+on-arrival: resources -= 1
+unavailable-subtitle: The difficulties of forming a cabinet of two opposing parties prove too great for Sartono.
+
+@sartono_fails
+on-arrival: resources += 1
