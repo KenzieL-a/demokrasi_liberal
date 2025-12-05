@@ -103,6 +103,7 @@ Q.psii_relation = 42;
 Q.kristen_relation = 52;
 Q.katolik_relation = 52;
 Q.pki_relation = 25;
+Q.pir_relation = 47;
 
 Q.pki_leader = "Thälmann";
 // alternative is the Conciliators as party leader
@@ -196,6 +197,7 @@ Q.workers_psii = 0;
 Q.workers_psi = 15;
 Q.workers_kristen = 0;
 Q.workers_katolik = 0;
+Q.workers_pir = 0;
 Q.workers_other = 10;
 
 Q.santri_pni = 15;
@@ -205,6 +207,7 @@ Q.santri_psii = 30;
 Q.santri_psi = 0;
 Q.santri_kristen = 0;
 Q.santri_katolik = 0;
+Q.santri_pir = 0;
 Q.santri_other = 10;
 
 Q.middle_pni = 40;
@@ -214,6 +217,7 @@ Q.middle_psii = 0;
 Q.middle_psi = 0;
 Q.middle_kristen = 10;
 Q.middle_katolik = 5;
+Q.middle_pir = 10;
 Q.middle_other = 15;
 
 Q.rural_pni = 10;
@@ -223,6 +227,7 @@ Q.rural_psii = 5;
 Q.rural_psi = 5;
 Q.rural_kristen = 5;
 Q.rural_katolik = 5;
+Q.rural_pir = 0;
 Q.rural_other = 15;
 
 Q.christians_pni = 10;
@@ -232,6 +237,7 @@ Q.christians_psii = 0;
 Q.christians_psi = 5;
 Q.christians_kristen = 50;
 Q.christians_katolik = 40;
+Q.christians_pir = 2;
 Q.christians_other = 15;
 
 
@@ -281,6 +287,7 @@ Q.psii_in_government = 1;
 Q.kristen_in_government = 1;
 Q.katolik_in_government = 1;
 Q.pki_in_government = 0;
+Q.pir_in_government = 1;
 
 Q.in_right_coalition = 0;
 // Weimar coalition = pni + masyumi + psi
@@ -566,7 +573,7 @@ go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
 = 1951
 
-It is a bright time for the Indonesian nation. After a period of struggle, the United States of Indonesia has been dissolved and we have finally secured our sovereignty. Currently, our situation is dire. Hyperinflation and economic deficit is plaguing our economy and our nascent democracy is highly unstable. 
+It is an uncertain time for the Indonesian nation. After a period of struggle, the United States of Indonesia has been dissolved and we have finally secured our sovereignty. Currently, our situation is dire. Hyperinflation and economic deficit is plaguing our economy and our nascent democracy is highly unstable. 
 
 Now, our task is to form a Konstituante to draft a new constitution for the young Indonesian nation. The <span style="color: #006600;">Masyumi</span>-led cabinet of Natsir is unpopular, and we stand to gain. Perhaps the next cabinet can brought over stability for our nation.
 
