@@ -106,7 +106,7 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-<span style="color: #990000;">**PNI**</span>: [+ PNI_votes +]%
+<span style="color: #990000;">**PNI**</span>: [+ pni_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
