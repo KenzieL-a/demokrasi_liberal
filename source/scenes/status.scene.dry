@@ -75,11 +75,8 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="Indonesian Communist Party" style="color: #c00000;"><strong>PKI</strong></span>!}: [+ pki_relation : relationships +]
 
-{!<span class="tooltip-text" title="Indonesian Christian Party" style="color: #66B2FF;"><strong>Parkindo</strong></span>!}: [+ kristen_relation : relationships +]
+{!<span class="tooltip-text" title="The two Christian Parties, Parkindo (Indonesian Christian Party (Protestant)) and the Catholic Party." style="color: #66B2FF;"><strong>Chris</strong></span>!}{!<span class="tooltip-text" title="The two Christian Parties, Parkindo (Indonesian Christian Party (Protestant)) and the Catholic Party." style="color: #330000;"><strong>tians</strong></span>!}: [+ kristen_relation : relationships +]
 
-{!<span class="tooltip-text" title="Catholic Party" style="color: #330000;"><strong>Katolik</strong></span>!}: [+ katolik_relation : relationships +]
-
-{!<span class="tooltip-text" title="Great Indonesia Party" style="color: #FF9933;"><strong>PIR</strong></span>!}: [+ pir_relation : relationships +]
 
 = Internal Factions of the <span style="color: #990000;">**PNI**</span>
 
