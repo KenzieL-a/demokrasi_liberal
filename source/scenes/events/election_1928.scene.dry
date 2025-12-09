@@ -1354,7 +1354,6 @@ on-arrival: foreign_minister_party = "PNI"; foreign_minister = "Roeslan Abdoelga
 
 Roeslan Abdoelgani of the PNI has been appointed Foreign Minister.
 
-
 @religious
 title: Ministry of Religious Affairs
 subtitle: This is not our usual domain.
@@ -1391,7 +1390,6 @@ go-to: ministries
 
 Rudolf Wissell of the PNI has been appointed labor minister.
 
-
 @enlightenment
 title: Enlightenment Ministry
 subtitle: The Enlightenment Ministry controls the flow of information.
@@ -1403,8 +1401,6 @@ on-arrival: leverage -= 10; enlightenment_minister_party = "PNI"; enlightenment_
 go-to: ministries
 
 Gustav Radbruch of the PNI has been appointed Justice Minister.
-
-
 
 @no_more
 title: No more ministries.
@@ -1468,7 +1464,6 @@ view-if: education_minister_party = "PNI"
 on-arrival: education_minister_party = "Z"; education_minister = "Stegerwald"; leverage += 5;
 tags: drop_mins_1928
 go-to: ministries
-
 
 @drop_enlightenment
 title: Drop the Justice Ministry.
