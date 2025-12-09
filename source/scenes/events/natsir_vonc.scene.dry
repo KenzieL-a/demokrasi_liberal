@@ -26,3 +26,11 @@ unavailable-subtitle: The difficulties of forming a cabinet of two opposing part
 
 @sartono_fails
 on-arrival: resources += 1
+
+Sartono was not able to bridge the gaps between the <span style="color: #990000;">**PNI**</span> and the <span style="color: #000000;">**Masyumi**</span>. The President has chosen Sukiman Wirjosandjojo, Legislative head of the <span style="color: #000000;">**Masyumi**</span> and Sidik Djojosukarto, chairman of the <span style="color: #990000;">**PNI**</span>, as *formateurs* for the new cabinet.
+
+- @begin: Begin negotiations.
+
+@begin
+on-arrival: Q.leverage = 25;
+go-to: ministries
