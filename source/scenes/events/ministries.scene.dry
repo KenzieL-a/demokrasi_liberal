@@ -48,11 +48,13 @@ Who shall be our pick for this ministry?
 
 @sujono 
 on-arrival: economic_minister_party = "PNI"; economic_minister = "Sujono Hadinoto"
+go-to: ministries_pick
 
 Sujono Hadinoto of the PNI has been appointed Minister of Trade and Industry.
 
 @wilopo 
 on-arrival: economic_minister_party = "PNI"; economic_minister = "Wilopo"
+go-to: ministries_pick
 
 Wilopo of the PNI has been appointed Minister of Trade and Industry.
 
@@ -75,11 +77,13 @@ Who shall be our pick for this ministry?
 
 @susanto
 on-arrival: justice_minister_party = "PNI"; justice_minister = "Susanto Tirtoprodjo"
+go-to: ministries_pick
 
 Susanto Tirtoprodjo of the PNI has been appointed Justice Minister.
 
 @gustaf
 on-arrival: justice_minister_party = "PNI"; justice_minister = "Gustaaf Adolf Maengkom"
+go-to: ministries_pick
 
 Gustaaf Adolf Maengkom of the PNI has been appointed Justice Minister.
 
@@ -103,16 +107,19 @@ Who shall be our pick for this ministry?
 
 @sunario
 on-arrival: foreign_minister_party = "PNI"; foreign_minister = "Soenario Sastrowardoyo"
+go-to: ministries_pick
 
 Soenario Sastrowardoyo of the PNI has been appointed Foreign Minister.
 
 @mukarto
 on-arrival: foreign_minister_party = "PNI"; foreign_minister = "Moekarto Notowidigdo"
+go-to: ministries_pick
 
 Moekarto Notowidigdo of the PNI has been appointed Foreign Minister.
 
 @ruslan
 on-arrival: foreign_minister_party = "PNI"; foreign_minister = "Roeslan Abdoelgani"
+go-to: ministries_pick
 
 Roeslan Abdoelgani of the PNI has been appointed Foreign Minister.
 
