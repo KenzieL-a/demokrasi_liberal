@@ -37,7 +37,7 @@ tags: mins_1928
 choose-if: leverage >= 10 
 view-if: economic_minister_party != "PNI"
 on-arrival: leverage -= 10
-go-to: ministries
+go-to: econ_1
 
 @econ_1
 
@@ -64,7 +64,7 @@ tags: mins_1928
 choose-if: leverage >= 10 
 view-if: justice_minister_party != "PNI"
 on-arrival: leverage -= 10
-go-to: ministries
+go-to: justice_1
 
 @justice_1
 
@@ -91,7 +91,7 @@ tags: mins_1928
 choose-if: leverage >= 10 
 view-if: foreign_minister_party != "PNI"
 on-arrival: leverage -= 10; foreign_minister_party = "PNI"; foreign_minister = "Breitscheid"
-go-to: ministries
+go-to: foreign_1
 
 @foreign_1
 
@@ -115,7 +115,6 @@ Moekarto Notowidigdo of the PNI has been appointed Foreign Minister.
 on-arrival: foreign_minister_party = "PNI"; foreign_minister = "Roeslan Abdoelgani"
 
 Roeslan Abdoelgani of the PNI has been appointed Foreign Minister.
-
 
 @religious
 title: Ministry of Religious Affairs
@@ -153,7 +152,6 @@ go-to: ministries
 
 Rudolf Wissell of the PNI has been appointed labor minister.
 
-
 @enlightenment
 title: Enlightenment Ministry
 subtitle: The Enlightenment Ministry controls the flow of information.
@@ -165,8 +163,6 @@ on-arrival: leverage -= 10; enlightenment_minister_party = "PNI"; enlightenment_
 go-to: ministries
 
 Gustav Radbruch of the PNI has been appointed Justice Minister.
-
-
 
 @no_more
 title: No more ministries.
