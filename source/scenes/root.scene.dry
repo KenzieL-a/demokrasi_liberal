@@ -193,11 +193,11 @@ Q.workers_psii = 0;
 Q.workers_psi = 15;
 Q.workers_kristen = 0;
 Q.workers_katolik = 0;
-Q.workers_other = 10;
+Q.workers_other = 15;
 
 Q.santri_pni = 15;
 Q.santri_pki = 5;
-Q.santri_masyumi = 50;
+Q.santri_masyumi = 40;
 Q.santri_psii = 30;
 Q.santri_psi = 0;
 Q.santri_kristen = 0;
