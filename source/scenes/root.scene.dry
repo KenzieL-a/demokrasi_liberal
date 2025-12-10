@@ -187,7 +187,7 @@ Q.parties = ['pni', 'pki', 'masyumi', 'psii', 'psi', 'kristen', 'katolik', 'othe
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalimasyumied.
 Q.workers_pni = 50;
-Q.workers_pki = 50;
+Q.workers_pki = 30;
 Q.workers_masyumi = 5;
 Q.workers_psii = 0;
 Q.workers_psi = 15;
