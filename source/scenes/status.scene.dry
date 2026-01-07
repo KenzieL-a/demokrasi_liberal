@@ -37,14 +37,20 @@ Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[
 
 Konstituante composition:
 
-{!<span class="tooltip-text" title="Social Democratic Party of Germany">PNI</span>!}: [+ PNI_r +]%
-[? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
-{!<span class="tooltip-text" title="Center Party + Bavarian People's Party">Masyumi + BVP</span>!}: [+ Masyumi_r +]%
-{!<span class="tooltip-text" title="Communist Party of Germany">PKI</span>!}: [+ PKI_r +]%
-{!<span class="tooltip-text" title="German Democratic Party">PSI</span>!}: [+ PSI_r +]%
-{!<span class="tooltip-text" title="German People's Party">PSII</span>!}: [+ PSII_r +]%
-{!<span class="tooltip-text" title="German National People's Party">Parkindo</span>!}: [+ Parkindo_r +]%
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (NaMasyumiis)">Katolik</span>!}: [+ Katolik_r +]%
+{!<span class="tooltip-text" title="Indonesian National Party">PNI</span>!}: [+ PNI_r +]%
+
+{!<span class="tooltip-text" title="Council of Indonesian Muslim Associations Party">Masyumi</span>!}: [+ Masyumi_r +]%
+
+{!<span class="tooltip-text" title="Indonesian Communist Party">PKI</span>!}: [+ PKI_r +]%
+
+{!<span class="tooltip-text" title="Indonesian Socialist Party">PSI</span>!}: [+ PSI_r +]%
+
+{!<span class="tooltip-text" title="Indonesian Islamic Union Party">PSII</span>!}: [+ PSII_r +]%
+
+{!<span class="tooltip-text" title="Indonesian Christian Party">Parkindo</span>!}: [+ Parkindo_r +]%
+
+{!<span class="tooltip-text" title="Catholic Party">Katolik</span>!}: [+ Katolik_r +]%
+
 Others: [+ other_r +]%
 
 [? if PNI_in_government = 1 : Budget: [+ budget +] ?]
