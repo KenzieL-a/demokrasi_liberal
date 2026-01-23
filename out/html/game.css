@@ -131,6 +131,16 @@ p {
   /* Enable vertical scrolling */
 }
 
+/* Adjust only the width for smaller screens */
+@media (max-width: 600px) {
+  .scrollable-box {
+    width: 102%;
+    /* Make it adapt to screen size */
+    max-width: 540px;
+    /* Prevent it from getting too wide */
+  }
+}
+
 p.game-over {
   border: 2px solid #bbb;
   padding: 0.5em;
