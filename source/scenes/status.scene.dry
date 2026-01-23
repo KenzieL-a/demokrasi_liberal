@@ -97,11 +97,11 @@ Economic growth: [+ economic_growth_2 +]%
 
 = Internal Factions of the <span style="color: #990000;">**PNI**</span>
 
-{!<span class="tooltip-text" title="Wilopo and his group mostly consists of moderate, younger figures of the party. They are generally more concerned over administrative and economic policies. The group stood close to the Vice-President Hatta.">Wilopo</span>!} group strength: [+ wilopo_strength : strength +], dissent: [+ wilopo_dissent : dissent +]
+{!<span class="tooltip-text" title="Wilopo and his group mostly consists of moderate, younger figures of the party. They are generally more concerned over administrative and economic policies. The group stood close to the Vice-President Hatta.">Moderates</span>!} strength: [+ wilopo_strength : strength +], dissent: [+ wilopo_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Sidik Djojosukarto and his group pushes the party to a pro-labor and socialist stance in solving economic and social problems. It consists of PNI members with no higher Western education and had come to prominence through leadership of mass organizations.">Sidik</span>!} group strength: [+ sidik_strength : strength +], dissent: [+ sidik_dissent : dissent +]
+{!<span class="tooltip-text" title="Sidik Djojosukarto and his group pushes the party to a pro-labor and socialist stance in solving economic and social problems. It consists of PNI members with no higher Western education and had come to prominence through leadership of mass organizations.">Leftists</span>!} strength: [+ sidik_strength : strength +], dissent: [+ sidik_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Sartono, Suwirjo, and their group are mostly administrators and bureaucrats. They are more radical in their nationalism and more focused on the nation's prestige and identity. Most of its members are close confidants of President Soekarno.">Sartono-Suwirjo</span>!} group strength: [+ partindo_strength : strength +], dissent: [+ partindo_dissent : dissent +]
+{!<span class="tooltip-text" title="Sartono, Suwirjo, and their group are mostly administrators and bureaucrats. They are more radical in their nationalism and more focused on the nation's prestige and identity. Most of its members are close confidants of President Soekarno.">Radicals</span>!} strength: [+ partindo_strength : strength +], dissent: [+ partindo_dissent : dissent +]
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
