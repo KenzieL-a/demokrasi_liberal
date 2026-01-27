@@ -125,15 +125,15 @@ Roeslan Abdoelgani of the PNI has been appointed Foreign Minister.
 
 @religious
 title: Ministry of Religious Affairs
-subtitle: This is not our usual domain.
+subtitle: This position is reserved for Islamic Parties
 unavailable-subtitle: We do not have enough leverage.
-choose-if: leverage >= 10 
+choose-if: leverage >= 10000
 view-if: religious_minister_party != "PNI"
 on-arrival: leverage -= 10; religious_minister_party = "PNI"; religious_minister = "Masjkur"
 go-to: ministries_pick
 tags: mins_1928
 
-Masjkur of the PNI has been appointed Minister of Religious Affairs.
+how tf
 
 @reichswehr
 title: Defense Ministry
