@@ -38,5 +38,5 @@ choose-if: masyumi_relation >= 40
 
 @masyumi-no
 subtitle: The <span style="color: #000000;">**Masyumi**</span> declares that the Prime Ministership is unnegotiable.
-view-if: masyumi relation <= 39
+view-if: masyumi_relation <= 39
 
