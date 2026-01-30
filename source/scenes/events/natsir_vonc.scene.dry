@@ -5,7 +5,7 @@ view-if: year = 1951 and month >= 4
 frequency: 1000
 tags: event
 max-visits: 1
-on-arrival: natsir_vonc = 1;
+on-arrival: natsir_vonc = 1
 face-image: img/portraits/natsir.jpg
 
 = The Natsir Cabinet Falls!
