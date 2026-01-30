@@ -2,6 +2,7 @@ title: Negotiations for a New Cabinet
 subtitle: The *formateur* is to form a new cabinet.
 new-page: true
 tags: event
+max-visits: 1
 view-if: natsir_vonc = 1
 face-image: img/portraits/sartono.jpg
 
