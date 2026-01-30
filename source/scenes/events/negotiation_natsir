@@ -1,0 +1,30 @@
+title: Negotiations for a New Cabinet
+subtitle: The *formateur* is to form a new cabinet.
+new-page: true
+tags: event
+view-if: natsir_vonc = 1
+face-image: img/portraits/sartono.jpg
+
+In attempting to establish a cabinet based on the <span style="color: #990000;">**PNI**</span> and the <span style="color: #000000;">**Masyumi**</span>, Sartono encountered various difficulties. The two parties are entrenched to opposing stands to matters of the turnover tax, regional councils based on Regulation 39, the distribution of seats, and the complex problems surrounding the West Irian Issue and Indonesian-Dutch relations. On the last series of matters in particular both parties are most divided from one another, with the <span style="color: #990000;">**PNI**</span> wanting a unilateral abrogation of the Netherlands-Indonesia Union and other parts of the Round Table Conference, while the <span style="color: #000000;">**Masyumi**</span> insisting all cancelations of agreements must be made in bilateral accord.
+
+But the most prominent of matters is the Prime Ministership. Sartono pressed the <span style="color: #000000;">**Masyumi**</span> to accept Susanto Tirtoprodjo of the <span style="color: #990000;">**PNI**</span> and governor of the Lesser Sunda Islands as Prime Minister. On the other hand, the <span style="color: #000000;">**Masyumi**</span> argued that because this new cabinet will follow the general policy which had been set forth and implemented by the Natsir cabinet, Natsir himself should again be the Prime Minister.
+
+- @pni-concede: Back down from the post of Prime Minister
+- @masyumi-concede: The <span style="color: #000000;">**Masyumi**</span> concedes.
+- @compromise: Let the <span style="color: #000000;">**Masyumi**</span> have the Prime Ministership as long as it is not Natsir.
+
+@masyumi-concede
+unavailable-subtitle: The Masyumi declares that their claim to the Prime Ministership is unnegotiable.
+choose-if: masyumi_relation >=100
+
+@pni-concede
+subtitle: This move is widely opposed by the party, afterall, why would we bring down the Natsir cabinet only to bring it back again?
+unavailable-subtitle: Sartono refuses to budge, afterall, why would we bring down the Natsir cabinet only to bring it back again?
+choose-if: partindo_strength <=20
+on-arrival: partindo_strength -= 5
+
+Surprisingly, Sartono has reluctantly concede to the <span style="color: #000000;">**Masyumi**</span>'s demand regarding the post of Prime Minister. Unsurprisingly however, much of the party is in uproar. The Sartono-Suwirjo Group, one of the factions of the <span style="color: #990000;">**PNI**</span> in which Sartono is a leading member of, is widely blamed for this "Hypocrisy", though they defended this move as "an order from the higher-ups" of the party.
+
+@compromise
+
+Unfortunately, the ruling Pro-Natsir faction of the <span style="color: #000000;">**Masyumi**</span> is too stubborn to accept our fair compromise. It appears that the difficulties of bridging the two biggest opposing parties prove too great for Sartono.
