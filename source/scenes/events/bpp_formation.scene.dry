@@ -1,0 +1,29 @@
+title: A Coalition of Nationalist Parties?
+subtitle: The PKI and other smaller parties gathers..
+new-page: true
+tags: event
+max-visits: 1
+view-if: natsir_vonc = 1
+
+After the fall of the <span style="color: #000000;">Natsir</span> cabinet, the <span style="color: #c00000;">**PKI**</span> has been advocating for a broad nationalist cabinet with the exclusion of the <span style="color: #000000;">**Masyumi**</span>. This hypothetical cabinet will be led by the <span style="color: #990000;">**PNI**</span> consisting of the various smaller nationalist parties, with the toleration or even the participation of the <span style="color: #c00000;">**PKI**</span>. Thus a meeting was held, attended by the <span style="color: #c00000;">**PKI**</span> and other political parties, notably the <span style="color: #003319;">**PSII**</span>, the <span style="color: #FF3333;">**Murba**</span> party, the <span style="color: #FF6666;">**Labour**</span> party, and the <span style="color: #FFCC99;">**Parindra**</span>, to discuss the possibility of such a proposition. 
+
+- @form: The BPP is formed.
+
+@form
+
+The meeting has resulted in the formation of the <span class="tooltip-text" title="Consultative Body of Parties">BPP</span>, a confederative association of political parties consisting of the meeting's atendees. These parties are loosely joined together on the basis of a broadly nationalist Common Program which called for a "truly independent foreign policy", freedom from the Round Table Conference Agreement, the return of West Irian to Indonesia, mass nationalizations and industrializations, and a "just distribution of land to peasants".
+
+The <span style="color: #c00000;">**PKI**</span> leadership has approached us and invited the <span style="color: #990000;">**PNI**</span> to join this proposition. 
+
+- @join: Our national values are at stake, join the BPP.
+- @no-join: We need to reconciliate with the <span style="color: #000000;">**Masyumi**</span> to form a truly "broad" cabinet.
+
+@join
+subtitle: This will prevent us from forming a cabinet with the Masyumi.
+on-arrival: partindo_strength += 5; bpp_join = 1;
+
+-
+
+@no-join
+
+-
