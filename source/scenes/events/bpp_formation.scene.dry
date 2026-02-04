@@ -35,7 +35,7 @@ The <span style="color: #c00000;">**PKI**</span> leadership has approached us an
 @join
 subtitle: This will prevent us from forming a cabinet with the Masyumi.
 unavailable-subtitle: Most of Sartono's time is already spent on bridging the PNI and the Masyumi.
-choose-if: nego_natsir: != 1
+choose-if: nego_natsir != 1
 on-arrival: partindo_strength += 5; bpp_join = 1;
 
 The <span style="color: #990000;">**PNI**</span> has accepted the <span style="color: #c00000;">**PKI**</span>'s invitation and has formally joined the BPP
