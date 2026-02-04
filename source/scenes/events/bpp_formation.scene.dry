@@ -3,7 +3,9 @@ subtitle: The PKI and other smaller parties gathers..
 new-page: true
 tags: event
 max-visits: 1
-view-if: natsir_vonc = 1
+view-if: natsir_vonc = 1; nego_natsir != 1;
+
+= A Coalition of Nationalist Parties?
 
 After the fall of the <span style="color: #000000;">Natsir</span> cabinet, the <span style="color: #c00000;">**PKI**</span> has been advocating for a broad nationalist cabinet with the exclusion of the <span style="color: #000000;">**Masyumi**</span>. This hypothetical cabinet will be led by the <span style="color: #990000;">**PNI**</span> consisting of the various smaller nationalist parties, with the toleration or even the participation of the <span style="color: #c00000;">**PKI**</span>. Thus a meeting was held, attended by the <span style="color: #c00000;">**PKI**</span> and other political parties, notably the <span style="color: #003319;">**PSII**</span>, the <span style="color: #FF3333;">**Murba**</span> party, the <span style="color: #FF6666;">**Labour**</span> party, and the <span style="color: #FFCC99;">**Parindra**</span>, to discuss the possibility of such a proposition. 
 
