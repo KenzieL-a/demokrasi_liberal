@@ -3,7 +3,19 @@ subtitle: The PKI and other smaller parties gathers..
 new-page: true
 tags: event
 max-visits: 1
-view-if: natsir_vonc = 1; nego_natsir != 1;
+view-if: natsir_vonc = 1
+on-display: {!  
+    var cardEl = document.createElement('div');  
+    cardEl.className = "face-figure2";  
+
+    var image = new Image();  
+    image.className = "face-img";  
+    image.src = "img/pemilu1955.2.webp";  
+
+    cardEl.appendChild(image);  
+    var contentDiv = document.querySelector("#page #mid_panel #content");
+    contentDiv.appendChild(cardEl);
+!}
 
 = A Coalition of Nationalist Parties?
 
@@ -15,14 +27,18 @@ After the fall of the <span style="color: #000000;">Natsir</span> cabinet, the <
 
 The meeting has resulted in the formation of the <span class="tooltip-text" title="Consultative Body of Parties">BPP</span>, a confederative association of political parties consisting of the meeting's atendees. These parties are loosely joined together on the basis of a broadly nationalist Common Program which called for a "truly independent foreign policy", freedom from the Round Table Conference Agreement, the return of West Irian to Indonesia, mass nationalizations and industrializations, and a "just distribution of land to peasants".
 
-The <span style="color: #c00000;">**PKI**</span> leadership has approached us and invited the <span style="color: #990000;">**PNI**</span> to join this proposition. 
+The <span style="color: #c00000;">**PKI**</span> leadership has approached us and invited the <span style="color: #990000;">**PNI**</span> to join this proposition. However, if we are to join this coalition, the <span style="color: #000000;">**Masyumi**</span> might take this move as a sign of us opposing and distancing away from them.
 
-- @join: Our national values are at stake, join the BPP.
+- @join: Our negotiation with the <span style="color: #000000;">**Masyumi**</span> is going no where, join the BPP.
 - @no-join: We need to reconciliate with the <span style="color: #000000;">**Masyumi**</span> to form a truly "broad" cabinet.
 
 @join
 subtitle: This will prevent us from forming a cabinet with the Masyumi.
+unavailable-subtitle: Most of Sartono's time is already spent on bridging the PNI and the Masyumi.
+choose-if: nego_natsir: != 1
 on-arrival: partindo_strength += 5; bpp_join = 1;
+
+The <span style="color: #990000;">**PNI**</span> has accepted the <span style="color: #c00000;">**PKI**</span>'s invitation and has formally joined the BPP
 
 @no-join
 
