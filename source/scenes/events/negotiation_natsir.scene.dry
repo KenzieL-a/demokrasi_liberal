@@ -15,19 +15,24 @@ But the most prominent of matters is the Prime Ministership. Sartono pressed the
 - @pni-concede: Back down from the post of Prime Minister
 - @masyumi-concede: The <span style="color: #000000;">**Masyumi**</span> concedes.
 - @compromise: Let the <span style="color: #000000;">**Masyumi**</span> have the Prime Ministership as long as it is not Natsir.
+- @fail: The negotiations fail
 
 @masyumi-concede
 unavailable-subtitle: The Masyumi declares that their claim to the Prime Ministership is unnegotiable.
 choose-if: masyumi_relation >=100
 
 @pni-concede
-subtitle: This move is widely opposed by the party, afterall, why would we bring down the Natsir cabinet only to bring it back again?
-unavailable-subtitle: Sartono refuses to budge, afterall, why would we bring down the Natsir cabinet only to bring it back again?
+subtitle: This move is widely opposed by the party, afterall, why would we bring down Natsir only to bring him back again?
+unavailable-subtitle: Sartono refuses to budge, afterall, why would we bring down Natsir only to bring him back again?
 choose-if: partindo_strength <=20
-on-arrival: partindo_strength -= 5
+on-arrival: partindo_strength -= 10; partindo_dissent += 15; nego_natsir = 1; 
 
-Surprisingly, Sartono has reluctantly concede to the <span style="color: #000000;">**Masyumi**</span>'s demand regarding the post of Prime Minister. Unsurprisingly however, much of the party is in uproar. The Sartono-Suwirjo Group, one of the factions of the <span style="color: #990000;">**PNI**</span> in which Sartono is a leading member of, is widely blamed for this "Hypocrisy", though they defended this move as "an order from the higher-ups" of the party.
+Surprisingly, Sartono has reluctantly concede to the <span style="color: #000000;">**Masyumi**</span>'s demand regarding the post of Prime Minister. Unsurprisingly however, much of the party is in uproar. The Sartono-Suwirjo Group, one of the factions of the <span style="color: #990000;">**PNI**</span> in which Sartono is a leading member of, is widely blamed for this "Hypocrisy".
 
 @compromise
 
-Unfortunately, the ruling Pro-Natsir faction of the <span style="color: #000000;">**Masyumi**</span> is too stubborn to accept our fair compromise. It appears that the difficulties of bridging the two biggest opposing parties prove too great for Sartono.
+Unfortunately, the ruling Pro-Natsir faction of the <span style="color: #000000;">**Masyumi**</span> is too stubborn to accept our fair compromise. 
+
+@fail
+
+It appears that the difficulties of bridging the two biggest opposing parties prove too great for Sartono. Sartono is expected to return his mandate back to the President so that a new *formateur* is appointed.
