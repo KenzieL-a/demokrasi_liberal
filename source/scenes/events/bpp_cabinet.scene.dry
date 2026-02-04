@@ -1,0 +1,16 @@
+title: BPP Conference
+subtitle: The nationalist parties' plans for a new cabinet..
+new-page: true
+tags: event
+max-visits: 1
+view-if: bpp_join = 1
+
+= BPP Conference
+
+wip
+
+- @cabinet_bpp: wip
+
+@cabinet_bpp
+on-arrival: leverage = 30
+go-to: election_1928.ministries
