@@ -13,4 +13,4 @@ wip
 
 @cabinet_bpp
 on-arrival: leverage = 30
-go-to: election_1928.ministries
+go-to: ministries.ministries_pick
