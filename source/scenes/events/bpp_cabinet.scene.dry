@@ -190,7 +190,7 @@ go-to: ministries_bpp
 Gustav Radbruch of the PNI has been appointed Justice Minister.
 
 @no_more
-title: No more ministries_bpp.
+title: No more ministries.
 subtitle: [? if leverage >= 10 : We still have some more leverage to gain ministries_bpp. ?][? if leverage < 10 : We do not have much leverage left. ?]
 tags: mins_1928
 
