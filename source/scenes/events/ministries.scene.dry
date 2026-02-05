@@ -1,9 +1,7 @@
 @ministries_pick
 
-We can pick from any number of ministries. Controlling a ministry allows us to directly effect policy in that area. 
-
-- #mins_1951
-- #drop_mins_1951
+- #mins_1928
+- #drop_mins_1928
 
 @interior
 title: Interior Ministry
@@ -24,10 +22,27 @@ unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 10 
 view-if: finance_minister_party != "PNI"
-on-arrival: leverage -= 10; finance_minister_party = "PNI"; finance_minister = "Hilferding"
+on-arrival: leverage -= 10
+go-to: finance_1
+
+@finance_1
+
+Who shall be our pick for this ministry?
+
+- @ong: Ong Eng Die
+- @soetikno: Soetikno Slamet
+
+@ong
+on-arrival: finance_minister_party = "PNI"; finance_minister = "Ong Eng Die"
 go-to: ministries_pick
 
-Rudolf Hilferding of the PNI has been appointed Finance Minister.
+Ong Eng Die of the PNI has been appointed Finance Minister.
+
+@soetikno
+on-arrival: finance_minister_party = "PNI"; finance_minister = "Soetikno Slamet"
+go-to: ministries_pick
+
+Soetikno Slamet of the PNI has been appointed Finance Minister.
 
 @economic
 title: Ministry of Trade and Industry
@@ -60,7 +75,7 @@ Wilopo of the PNI has been appointed Minister of Trade and Industry.
 
 @justice
 title: Justice Ministry
-subtitle: The Justice Ministry controls the courts.
+subtitle: The Justice Ministry controls the judiciary and the courts.
 unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 10 
@@ -94,7 +109,6 @@ unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 10 
 view-if: foreign_minister_party != "PNI"
-on-arrival: leverage -= 10; foreign_minister_party = "PNI"; foreign_minister = "Breitscheid"
 go-to: foreign_1
 
 @foreign_1
@@ -134,7 +148,7 @@ tags: mins_1951
 
 @reichswehr
 title: Defense Ministry
-subtitle: The Ministry responsible for the armed forces.
+subtitle: The Defense Ministry controls the armed forces.
 unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 10 
@@ -151,10 +165,10 @@ unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 5
 view-if: education_minister_party != "PNI"
-on-arrival: leverage -= 5; education_minister_party = "PNI"; education_minister = "Wissell"
+on-arrival: leverage -= 5; education_minister_party = "PNI"; education_minister = "Ki Sarmidi Mangunsarkoro"
 go-to: ministries_pick
 
-Rudolf Wissell of the PNI has been appointed labor minister.
+Ki Sarmidi Mangunsarkoro of the PNI has been appointed Minister of Education.
 
 @enlightenment
 title: Enlightenment Ministry
@@ -163,10 +177,10 @@ unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 10 
 view-if: enlightenment_minister_party != "PNI"
-on-arrival: leverage -= 10; enlightenment_minister_party = "PNI"; enlightenment_minister = "Radbruch"
+on-arrival: leverage -= 10; enlightenment_minister_party = "PNI"; enlightenment_minister = "Arnold Mononutu"
 go-to: ministries_pick
 
-Gustav Radbruch of the PNI has been appointed Justice Minister.
+Arnold Mononutu of the PNI has been appointed Justice Minister.
 
 @no_more
 title: No more ministries.

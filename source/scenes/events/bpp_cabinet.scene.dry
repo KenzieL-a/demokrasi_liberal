@@ -7,10 +7,29 @@ view-if: bpp_join = 1
 
 = BPP Conference
 
-wip
+Throughtout the period of Sartono's negotiations for a <span style="color: #990000;">**PNI**</span>-<span style="color: #000000;">**Masyumi**</span> based cabinet there was speculation of the possibility of a cabinet's being formed on the basis of the <span style="color: #990000;">**PNI**</span> and other smaller nationalist parties, with the support of the <span style="color: #c00000;">**PKI**</span> and the exclusion of the <span style="color: #000000;">**Masyumi**</span>. Now with the participation of the <span style="color: #990000;">**PNI**</span> in the BPP, the proposition might be realized.
 
-- @cabinet_bpp: wip
+The <span style="color: #c00000;">**PKI**</span>, the <span style="color: #990000;">**PNI**</span>, and the other nationalist parties have gathered once again. This time to discuss plans for a new nationalist cabinet. 
+
+- @nego_bpp: Negotiations have begun.
+
+The program of the BPP is clear: a broad nationalist Common Program which called for a "truly independent foreign policy", freedom from the Round Table Conference Agreement, the return of West Irian to Indonesia, mass nationalizations and industrializations, the lifting of the "State of War and Siege", limitations to strikes, and a "just distribution of land to peasants".
+
+Now the real negotiations began on the distribution of seats in the cabinet.
+
+- @pm_bpp: The post of Prime Minister
+
+@pm_bpp
+face-image: img/portraits/susanto.jpg
+
+As per Sartono's desire, Susanto Tirtoprodjo of the <span style="color: #990000;">**PNI**</span> and current governor of the Lesser Sunda Islands, will be our pick for the Prime Ministership. The <span style="color: #c00000;">**PKI**</span> and the others concede to our request.
+
+- @cabinet_bpp: The ministries.
 
 @cabinet_bpp
 on-arrival: leverage = 30
 go-to: ministries.ministries_pick
+
+In the next session, we will attempt to solve the question regarding the distribution of ministries among the parties of the planned cabinet.
+
+The <span style="color: #c00000;">**PKI**</span> leadership has stated they had chosen an abstentionist position in regards to ministries, though they will support and tolerate the new cabinet.
