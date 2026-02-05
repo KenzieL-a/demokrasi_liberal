@@ -36,6 +36,6 @@ Unfortunately, the ruling Pro-Natsir faction of the <span style="color: #000000;
 - @fail: The negotiations fail.
 
 @fail
-on-arrival: natsir_fail = 1
+on-arrival: nego_natsir = 1
 
 It appears that the difficulties of bridging the two biggest opposing parties prove too great for Sartono. Sartono is expected to return his mandate back to the President so that a new *formateur* is appointed.

@@ -29,8 +29,8 @@ The meeting has resulted in the formation of the <span class="tooltip-text" titl
 
 The <span style="color: #c00000;">**PKI**</span> leadership has approached us and invited the <span style="color: #990000;">**PNI**</span> to join this proposition. However, if we are to join this coalition, the <span style="color: #000000;">**Masyumi**</span> might take this move as a sign of us opposing and distancing away from them.
 
-- @join: Our negotiation with the <span style="color: #000000;">**Masyumi**</span> is going no where, join the BPP.
-- @no-join: We need to reconciliate with the <span style="color: #000000;">**Masyumi**</span> to form a truly "broad" cabinet.
+- @join: Our negotiation with the <span style="color: #000000;">**Masyumi**</span> is going no where. Join the BPP.
+- @no-join: [? if nego_natsir != 1: We need to reconciliate with the <span style="color: #000000;">**Masyumi**</span> to form a truly "broad" cabinet. ?] Refuse the offer.
 
 @join
 subtitle: This will prevent us from forming a cabinet with the Masyumi.
@@ -42,6 +42,6 @@ The <span style="color: #990000;">**PNI**</span> has accepted the <span style="c
 
 @no-join
 
-We have made our stance clear. We will continue negotiations with the <span style="color: #000000;">**Masyumi**</span> to form a truly "national coalition cabinet on a broad basis" just like the President intended.
+Such a coalition cabinet is not realistic nor suitable at the moment. [? if nego_natsir != 1: We will continue negotiations with the <span style="color: #000000;">**Masyumi**</span> to form a truly "national coalition cabinet on a **broad** basis" just like the President wanted. ?]
 
 
