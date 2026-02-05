@@ -89,7 +89,7 @@ Gustaaf Adolf Maengkom of the PNI has been appointed Justice Minister.
 
 @foreign
 title: Foreign Ministry
-subtitle: This is usually the domain of Gustav Stresemann of the DVP.
+subtitle: The Foreign Ministry controls foreign affairs and international relations.
 unavailable-subtitle: We do not have enough leverage.
 tags: mins_1951
 choose-if: leverage >= 10 
