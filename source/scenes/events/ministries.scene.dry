@@ -126,10 +126,9 @@ Roeslan Abdoelgani of the PNI has been appointed Foreign Minister.
 @religious
 title: Ministry of Religious Affairs
 subtitle: This position is reserved for Islamic Parties
-unavailable-subtitle: We do not have enough leverage.
+unavailable-subtitle: This position is reserved for Islamic Parties.
 choose-if: leverage >= 10000
 view-if: religious_minister_party != "PNI"
-on-arrival: leverage -= 10; religious_minister_party = "PNI"; religious_minister = "Masjkur"
 go-to: ministries_pick
 tags: mins_1951
 
