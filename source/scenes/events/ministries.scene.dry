@@ -133,8 +133,6 @@ on-arrival: leverage -= 10; religious_minister_party = "PNI"; religious_minister
 go-to: ministries_pick
 tags: mins_1928
 
-how tf
-
 @reichswehr
 title: Defense Ministry
 subtitle: The Ministry responsible for the armed forces.
