@@ -247,7 +247,7 @@ go-to: ministries_pick
 
 
 @drop_enlightenment
-title: Drop the Justice Ministry.
+title: Drop the Enlightenment Ministry.
 view-if: enlightenment_minister_party = "PNI"
 on-arrival: enlightenment_minister_party = ddp_name; enlightenment_minister = "Koch-Weser"; leverage += 10;
 tags: drop_mins_1951
