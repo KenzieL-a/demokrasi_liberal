@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-President: [+ president +]
+<div style="text-align: center;">President: [+ president +]</div>
 
 Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**Masyumi**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])
 
