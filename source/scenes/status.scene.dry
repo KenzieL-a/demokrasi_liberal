@@ -36,7 +36,7 @@ Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[
 
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
-[? if not dnef_existed: <img src="img/portraits/SchleicherKurt.jpg" alt="Kurt von Schleicher" style="width: 50%;"> ?]
+[? if chancellor == "Mohammad Natsir: <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
 </div> 
 
 Konstituante composition:
