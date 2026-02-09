@@ -35,7 +35,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**Masyumi**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])
 
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
-<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> ?]
+<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
 [? if not dnef_existed: <img src="img/portraits/SchleicherKurt.jpg" alt="Kurt von Schleicher" style="width: 50%;"> ?]
 </div> 
 
