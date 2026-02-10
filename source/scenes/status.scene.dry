@@ -101,7 +101,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
-@defense
+@paramilitaries
 
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
