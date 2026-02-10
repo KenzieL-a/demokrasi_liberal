@@ -115,13 +115,21 @@ Economic growth: [+ economic_growth_2 +]%
 = Cabinet
 
 Minister of Foreign Affairs: [+ foreign_minister +] ([+ foreign_minister_party +])
+
 Minister of Home Affairs: [+ interior_minister +] ([+ interior_minister_party +])
+
 Minister of Justice: [+ justice_minister +] ([+ justice_minister_party +])
+
 Minister of Enlightenment: [+ enlightenment_minister +] ([+ enlightenment_minister_party +])
+
 Minister of Finance: [+ finance_minister +] ([+ finance_minister_party +])
+
 Minister of Trade and Industry: [+ economic_minister +] ([+ economic_minister_party +])
+
 Minister of Public Works: [+ publicworks_minister +] ([+ publicworks_minister_party +])
+
 Minister of Education: [+ education_minister +] ([+ education_minister_party +])
+
 Minister of Religious Affairs: [+ religious_minister +] ([+ religious_minister_party +])
 
 @polls
