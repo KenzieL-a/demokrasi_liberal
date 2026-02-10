@@ -107,12 +107,17 @@ Economic growth: [+ economic_growth_2 +]%
 
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
-[? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
+<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
 </div> 
 <div style="text-align: center;">President: [+ president +]</div>
-<div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
+<div style="text-align: center;">Vice-President: [+ vice_pres +]</div>
 
 = Cabinet
+
+<div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
+<div style="width: 60%;display: block;margin: auto;margin-bottom: 5px;">
+[? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
+</div> 
 
 Minister of Foreign Affairs: 
 [+ foreign_minister +] ([+ foreign_minister_party +])
