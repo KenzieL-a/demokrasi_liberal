@@ -38,12 +38,10 @@ Internal dissent: [+ dissent_percent : dissent +]
 </div>
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
-[? if chancellor == "Mohammad Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
+[? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
 </div> 
-<div style="gap: 5px;margin-bottom: 5px;margin-left: -3px;">
-[+ president +]
-[? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**Masyumi**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
-</div>
+<div style="text-align: center;">President: [+ president +]</div>
+<div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**Masyumi**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
 
 Konstituante composition:
 
