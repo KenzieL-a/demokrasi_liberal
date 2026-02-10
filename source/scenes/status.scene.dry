@@ -103,12 +103,26 @@ Economic growth: [+ economic_growth_2 +]%
 
 @paramilitaries
 
+= Government 
+
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
 [? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
 </div> 
 <div style="text-align: center;">President: [+ president +]</div>
 <div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
+
+= Cabinet
+
+Minister of Foreign Affairs: [+ foreign_minister +] ([+ foreign_minister_party +])
+Minister of Home Affairs: [+ interior_minister +] ([+ interior_minister_party +])
+Minister of Justice: [+ justice_minister +] ([+ justice_minister_party +])
+Minister of Enlightenment: [+ enlightenment_minister +] ([+ enlightenment_minister_party +])
+Minister of Finance: [+ finance_minister +] ([+ finance_minister_party +])
+Minister of Trade and Industry: [+ economic_minister +] ([+ economic_minister_party +])
+Minister of Public Works: [+ publicworks_minister +] ([+ publicworks_minister_party +])
+Minister of Education: [+ education_minister +] ([+ education_minister_party +])
+Minister of Religious Affairs: [+ religious_minister +] ([+ religious_minister_party +])
 
 @polls
 on-arrival: {!
