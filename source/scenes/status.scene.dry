@@ -14,9 +14,10 @@ if (Q.economic_growth) {
 }
 !}
 
-<div style="text-align: center;">
-[? if month = 0:   ?][? if month >= 0: [+ month : month +] ?] [+ year +]
-</div>
+= <span style="color: #990000;">**PNI**</span> Leadership
+
+<div style="text-align: center;">Chairman: [+ pni_leader +]</div>
+[? if pni_leader == "Sidik Djojosukarto": <div><img src="img/portraits/sidik.jpg" alt="Sidik Djojosukarto" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
 = Status
 
@@ -31,14 +32,16 @@ Resources available: [+ resources +]
 
 Internal dissent: [+ dissent_percent : dissent +]
 
-= Government
+= Internal Factions of the <span style="color: #990000;">**PNI**</span>
 
-<div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
-<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
-[? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
-</div> 
-<div style="text-align: center;">President: [+ president +]</div>
-<div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
+{!<span class="tooltip-text" title="Wilopo and his group mostly consists of moderate, younger figures of the party. They are generally more concerned over administrative and economic policies. The group stood close to the Vice-President Hatta.">Moderates</span>!} strength: [+ wilopo_strength : strength +], dissent: [+ wilopo_dissent : dissent +]
+
+{!<span class="tooltip-text" title="Sidik Djojosukarto and his group pushes the party to a pro-labor and socialist stance in solving economic and social problems. It consists of PNI members with no higher Western education and had come to prominence through leadership of mass organizations.">Leftists</span>!} strength: [+ sidik_strength : strength +], dissent: [+ sidik_dissent : dissent +]
+
+{!<span class="tooltip-text" title="Sartono, Suwirjo, and their group are mostly administrators and bureaucrats. They are more radical in their nationalism and more focused on the nation's prestige and identity. Most of its members are close confidants of President Soekarno.">Radicals</span>!} strength: [+ partindo_strength : strength +], dissent: [+ partindo_dissent : dissent +]
+
+
+= Government
 
 Konstituante composition:
 
@@ -70,13 +73,9 @@ Inflation: [+ inflation_2 +]%
 
 Economic growth: [+ economic_growth_2 +]%
 
-
-# = Public Opinion
-
 @politics
 
 = Inter-party Relations
-
 
 {!<span class="tooltip-text" title="Council of Indonesian Muslim Associations Party" style="color: #000000;"><strong>Masyumi</strong></span>!}: [+ masyumi_relation : relationships +]
 
@@ -100,19 +99,16 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="Indonesian Communist Party" style="color: #c00000;"><strong>PKI</strong></span>!}: [+ pki_leader +] (Marxism-Leninism)
 
-= Internal Factions of the <span style="color: #990000;">**PNI**</span>
-
-{!<span class="tooltip-text" title="Wilopo and his group mostly consists of moderate, younger figures of the party. They are generally more concerned over administrative and economic policies. The group stood close to the Vice-President Hatta.">Moderates</span>!} strength: [+ wilopo_strength : strength +], dissent: [+ wilopo_dissent : dissent +]
-
-{!<span class="tooltip-text" title="Sidik Djojosukarto and his group pushes the party to a pro-labor and socialist stance in solving economic and social problems. It consists of PNI members with no higher Western education and had come to prominence through leadership of mass organizations.">Leftists</span>!} strength: [+ sidik_strength : strength +], dissent: [+ sidik_dissent : dissent +]
-
-{!<span class="tooltip-text" title="Sartono, Suwirjo, and their group are mostly administrators and bureaucrats. They are more radical in their nationalism and more focused on the nation's prestige and identity. Most of its members are close confidants of President Soekarno.">Radicals</span>!} strength: [+ partindo_strength : strength +], dissent: [+ partindo_dissent : dissent +]
-
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
 @defense
 
-[? if PNI_in_government : Interior police loyalty: [+ interior_police_loyalty : loyalty +] ?]
+<div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
+<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
+[? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
+</div> 
+<div style="text-align: center;">President: [+ president +]</div>
+<div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
 
 @polls
 on-arrival: {!
