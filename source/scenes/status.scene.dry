@@ -34,7 +34,8 @@ Internal dissent: [+ dissent_percent : dissent +]
 = Government
 
 <div style="flex: 1;">
-<p style="white-space: nowrap;text-align: right;font-weight: bold;margin-bottom: 0px;">Prime Minister</p> 
+<p style="white-space: nowrap;text-align: right;margin-bottom: 0px;">Prime Minister</p> 
+<p style="white-space: nowrap;text-align: left;margin-bottom: 0px;">   President</p> 
 </div>
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
