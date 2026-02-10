@@ -33,7 +33,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-<div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
+<div style="gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 President
 Prime Minister
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
