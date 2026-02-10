@@ -41,10 +41,8 @@ Prime Minister
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
 [? if chancellor == "Mohammad Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir" style="width: 50%;"> ?]
 </div> 
-
-President: [+ president +]
-<div style="text-align: center;">Prime Minister: </div>
-<div style="text-align: center;">
+<div style="gap: 5px;margin-bottom: 5px;margin-left: -3px;">
+[+ president +]
 [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**Masyumi**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
 </div>
 
