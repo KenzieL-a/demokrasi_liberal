@@ -14,11 +14,11 @@ if (Q.economic_growth) {
 }
 !}
 
-= Status
-
 <div style="text-align: center;">
 [? if month = 0:   ?][? if month >= 0: [+ month : month +] ?] [+ year +]
 </div>
+
+= Status
 
 Resources available: [+ resources +]
 
