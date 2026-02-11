@@ -121,9 +121,7 @@ Economic growth: [+ economic_growth_2 +]%
 = Cabinet
 
 <div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
-<div style="width: 75%;display: block;margin: auto;margin-bottom: 5px;">
-[? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir"> ?]
-</div> 
+[? if chancellor == "Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
 Minister of Foreign Affairs: 
 <div style="text-align: left;margin-top: -14px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
