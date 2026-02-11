@@ -35,15 +35,15 @@ Internal dissent: [+ dissent_percent : dissent +]
 = Internal Factions of the <span style="color: #990000;">**PNI**</span>
 
 {!<span class="tooltip-text" title="Wilopo's faction mostly consists of moderate, younger figures of the party.">Wilopo Group</span>!} (Moderates) 
-<div style="text-align: left;margin-top: -14px;">Strength: [+ wilopo_strength : strength +]</div>
+<div style="text-align: left;margin-top: -15px;">Strength: [+ wilopo_strength : strength +]</div>
 <div style="text-align: left;margin-top: 0px;">Dissent: [+ wilopo_dissent : dissent +]</div>
 
 {!<span class="tooltip-text" title="Sidik Djojosukarto and his clique pushes the party to a pro-labor and socialist stance.">Sidik Group</span>!} (Leftists) 
-<div style="text-align: left;margin-top: -14px;">Strength: [+ sidik_strength : strength +]</div>
+<div style="text-align: left;margin-top: -15px;">Strength: [+ sidik_strength : strength +]</div>
 <div style="text-align: left;margin-top: 0px;">Dissent: [+ sidik_dissent : dissent +]</div>
 
 {!<span class="tooltip-text" title="The Sartono-Suwirjo group are mostly administrators and bureaucrats who are more radical in their nationalism.">Sartono-Suwirjo Group</span>!} (Radicals) 
-<div style="text-align: left;margin-top: -14px;">Strength: [+ partindo_strength : strength +]</div>
+<div style="text-align: left;margin-top: -15px;">Strength: [+ partindo_strength : strength +]</div>
 <div style="text-align: left;margin-top: 0px;">Dissent: [+ partindo_dissent : dissent +]</div>
 
 
@@ -124,31 +124,31 @@ Economic growth: [+ economic_growth_2 +]%
 [? if chancellor == "Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
 Minister of Foreign Affairs: 
-<div style="text-align: left;margin-top: -14px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
 
 Minister of Home Affairs: 
-<div style="text-align: left;margin-top: -14px;">[+ interior_minister +] ([+ interior_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ interior_minister +] ([+ interior_minister_party +])</div>
 
 Minister of Justice: 
-<div style="text-align: left;margin-top: -14px;">[+ justice_minister +] ([+ justice_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ justice_minister +] ([+ justice_minister_party +])</div>
 
 Minister of Enlightenment: 
-<div style="text-align: left;margin-top: -14px;">[+ enlightenment_minister +] ([+ enlightenment_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ enlightenment_minister +] ([+ enlightenment_minister_party +])</div>
 
 Minister of Finance: 
-<div style="text-align: left;margin-top: -14px;">[+ finance_minister +] ([+ finance_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ finance_minister +] ([+ finance_minister_party +])</div>
 
 Minister of Trade and Industry: 
-<div style="text-align: left;margin-top: -14px;">[+ economic_minister +] ([+ economic_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ economic_minister +] ([+ economic_minister_party +])</div>
 
 Minister of Public Works: 
-<div style="text-align: left;margin-top: -14px;">[+ publicworks_minister +] ([+ publicworks_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ publicworks_minister +] ([+ publicworks_minister_party +])</div>
 
 Minister of Education: 
-<div style="text-align: left;margin-top: -14px;">[+ education_minister +] ([+ education_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ education_minister +] ([+ education_minister_party +])</div>
 
 Minister of Religious Affairs: 
-<div style="text-align: left;margin-top: -14px;">[+ religious_minister +] ([+ religious_minister_party +])</div>
+<div style="text-align: left;margin-top: -15px;">[+ religious_minister +] ([+ religious_minister_party +])</div>
 
 @polls
 on-arrival: {!
