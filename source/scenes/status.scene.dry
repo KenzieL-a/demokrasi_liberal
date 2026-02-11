@@ -34,11 +34,11 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Internal Factions of the <span style="color: #990000;">**PNI**</span>
 
-{!<span class="tooltip-text" title="Wilopo and his group mostly consists of moderate, younger figures of the party. They are generally more concerned over administrative and economic policies. The group stood close to the Vice-President Hatta.">Moderates</span>!} strength: [+ wilopo_strength : strength +], dissent: [+ wilopo_dissent : dissent +]
+{!<span class="tooltip-text" title="Wilopo's faction mostly consists of moderate, younger figures of the party.">Wilopo Group</span>!} (Moderates) strength: [+ wilopo_strength : strength +], dissent: [+ wilopo_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Sidik Djojosukarto and his group pushes the party to a pro-labor and socialist stance in solving economic and social problems. It consists of PNI members with no higher Western education and had come to prominence through leadership of mass organizations.">Leftists</span>!} strength: [+ sidik_strength : strength +], dissent: [+ sidik_dissent : dissent +]
+{!<span class="tooltip-text" title="Sidik Djojosukarto and his clique pushes the party to a pro-labor and socialist stance.">Sidik Group</span>!} (Leftists) strength: [+ sidik_strength : strength +], dissent: [+ sidik_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Sartono, Suwirjo, and their group are mostly administrators and bureaucrats. They are more radical in their nationalism and more focused on the nation's prestige and identity. Most of its members are close confidants of President Soekarno.">Radicals</span>!} strength: [+ partindo_strength : strength +], dissent: [+ partindo_dissent : dissent +]
+{!<span class="tooltip-text" title="The Sartono-Suwirjo group are mostly administrators and bureaucrats who are more radical in their nationalism.">Sartono-Suwirjo Group</span>!} (Radicals) strength: [+ partindo_strength : strength +], dissent: [+ partindo_dissent : dissent +]
 
 
 = Government
@@ -120,31 +120,31 @@ Economic growth: [+ economic_growth_2 +]%
 </div> 
 
 Minister of Foreign Affairs: 
-<div style="text-align: left;margin-top: -10px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
 
 Minister of Home Affairs: 
-<div style="text-align: left;">[+ interior_minister +] ([+ interior_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ interior_minister +] ([+ interior_minister_party +])</div>
 
 Minister of Justice: 
-<div style="text-align: left;">[+ justice_minister +] ([+ justice_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ justice_minister +] ([+ justice_minister_party +])</div>
 
 Minister of Enlightenment: 
-<div style="text-align: left;">[+ enlightenment_minister +] ([+ enlightenment_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ enlightenment_minister +] ([+ enlightenment_minister_party +])</div>
 
 Minister of Finance: 
-<div style="text-align: left;">[+ finance_minister +] ([+ finance_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ finance_minister +] ([+ finance_minister_party +])</div>
 
 Minister of Trade and Industry: 
-<div style="text-align: left;">[+ economic_minister +] ([+ economic_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ economic_minister +] ([+ economic_minister_party +])</div>
 
 Minister of Public Works: 
-<div style="text-align: left;">[+ publicworks_minister +] ([+ publicworks_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ publicworks_minister +] ([+ publicworks_minister_party +])</div>
 
 Minister of Education: 
-<div style="text-align: left;">[+ education_minister +] ([+ education_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ education_minister +] ([+ education_minister_party +])</div>
 
 Minister of Religious Affairs: 
-<div style="text-align: left;">[+ religious_minister +] ([+ religious_minister_party +])</div>
+<div style="text-align: left;margin-top: -13px;">[+ religious_minister +] ([+ religious_minister_party +])</div>
 
 @polls
 on-arrival: {!
