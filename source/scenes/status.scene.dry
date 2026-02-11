@@ -120,7 +120,7 @@ Economic growth: [+ economic_growth_2 +]%
 </div> 
 
 Minister of Foreign Affairs: 
-<div style="text-align: left;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
+<div style="text-align: left;margin-top: -10px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
 
 Minister of Home Affairs: 
 <div style="text-align: left;">[+ interior_minister +] ([+ interior_minister_party +])</div>
