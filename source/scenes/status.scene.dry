@@ -36,15 +36,15 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 {!<span class="tooltip-text" title="Wilopo's faction mostly consists of moderate, younger figures of the party.">Wilopo Group</span>!} (Moderates) 
 <div style="text-align: left;margin-top: -14px;">Strength: [+ wilopo_strength : strength +]</div>
-<div style="text-align: left;margin-top: -14px;">Dissent: [+ wilopo_dissent : dissent +]</div>
+<div style="text-align: left;margin-top: 0px;">Dissent: [+ wilopo_dissent : dissent +]</div>
 
 {!<span class="tooltip-text" title="Sidik Djojosukarto and his clique pushes the party to a pro-labor and socialist stance.">Sidik Group</span>!} (Leftists) 
 <div style="text-align: left;margin-top: -14px;">Strength: [+ sidik_strength : strength +]</div>
-<div style="text-align: left;margin-top: -14px;">Dissent: [+ sidik_dissent : dissent +]</div>
+<div style="text-align: left;margin-top: 0px;">Dissent: [+ sidik_dissent : dissent +]</div>
 
 {!<span class="tooltip-text" title="The Sartono-Suwirjo group are mostly administrators and bureaucrats who are more radical in their nationalism.">Sartono-Suwirjo Group</span>!} (Radicals) 
 <div style="text-align: left;margin-top: -14px;">Strength: [+ partindo_strength : strength +]</div>
-<div style="text-align: left;margin-top: -14px;">Dissent: [+ partindo_dissent : dissent +]</div>
+<div style="text-align: left;margin-top: 0px;">Dissent: [+ partindo_dissent : dissent +]</div>
 
 
 = Government
@@ -111,12 +111,12 @@ Economic growth: [+ economic_growth_2 +]%
 
 = Government 
 
+<div style="text-align: center;">President: [+ president +]</div>
+<div style="text-align: center;">Vice-President: [+ vice_pres +]</div>
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;">
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 50%;"> 
 <img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 50%;"> 
 </div> 
-<div style="text-align: center;">President: [+ president +]</div>
-<div style="text-align: center;">Vice-President: [+ vice_pres +]</div>
 
 = Cabinet
 
