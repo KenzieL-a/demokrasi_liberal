@@ -119,32 +119,23 @@ Economic growth: [+ economic_growth_2 +]%
 [? if chancellor == "Natsir": <img src="img/portraits/natsir.jpg" alt="Mohammad Natsir"> ?]
 </div> 
 
-Minister of Foreign Affairs: 
-[+ foreign_minister +] ([+ foreign_minister_party +])
+Minister of Foreign Affairs: <br></br> [+ foreign_minister +] ([+ foreign_minister_party +])
 
-Minister of Home Affairs: 
-[+ interior_minister +] ([+ interior_minister_party +])
+Minister of Home Affairs: <br></br> [+ interior_minister +] ([+ interior_minister_party +])
 
-Minister of Justice: 
-[+ justice_minister +] ([+ justice_minister_party +])
+Minister of Justice: <br></br> [+ justice_minister +] ([+ justice_minister_party +])
 
-Minister of Enlightenment: 
-[+ enlightenment_minister +] ([+ enlightenment_minister_party +])
+Minister of Enlightenment: <br></br> [+ enlightenment_minister +] ([+ enlightenment_minister_party +])
 
-Minister of Finance: 
-[+ finance_minister +] ([+ finance_minister_party +])
+Minister of Finance: <br></br> [+ finance_minister +] ([+ finance_minister_party +])
 
-Minister of Trade and Industry: 
-[+ economic_minister +] ([+ economic_minister_party +])
+Minister of Trade and Industry: <br></br> [+ economic_minister +] ([+ economic_minister_party +])
 
-Minister of Public Works: 
-[+ publicworks_minister +] ([+ publicworks_minister_party +])
+Minister of Public Works: <br></br> [+ publicworks_minister +] ([+ publicworks_minister_party +])
 
-Minister of Education: 
-[+ education_minister +] ([+ education_minister_party +])
+Minister of Education: <br></br> [+ education_minister +] ([+ education_minister_party +])
 
-Minister of Religious Affairs: 
-[+ religious_minister +] ([+ religious_minister_party +])
+Minister of Religious Affairs: <br></br> [+ religious_minister +] ([+ religious_minister_party +])
 
 @polls
 on-arrival: {!
