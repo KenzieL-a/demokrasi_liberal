@@ -55,8 +55,8 @@ is-deck: true
 
 @govt
 title: Government Affairs
-view-if: time >= 6
-card-image: img/reichstag_2.jpg
+view-if: pni_in_government = 1
+card-image: img/dprs.png
 is-deck: true
 
 - #govt_affairs
