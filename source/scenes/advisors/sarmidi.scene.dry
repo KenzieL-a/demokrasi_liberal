@@ -20,7 +20,8 @@ title: Education Reform
 subtitle: As a former educator, Sarmidi can set a policy regarding education.
 choose-if: advisor_action_timer <= 0 and education_minister = "Ki Sarmidi Mangunsarkoro"
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if not education_minister = "Ki Sarmidi Mangunsarkoro": Sarmidi is not the Education Minister. ?]
-on-arrival: go-to: education_science.ed_menu
+on-arrival: advisor_action_timer = 6; last_advisor_action = 1;
+go-to: education_science.ed_menu
 
 We have improved our relations with the Z, [+ ddp_name +], and DVP, and reduced tensions with the coalition.
 
