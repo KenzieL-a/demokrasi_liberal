@@ -455,7 +455,7 @@ Q.next_election_month = 9;
 Q.next_election_time = 5;
 
 Q.next_congress_year = 1951;
-Q.next_congress_month = 5;
+Q.next_congress_month = 'May';
 Q.vice_chair = 'Sarmidi Mangunsarkoro';
 Q.gensec = 'Hadikusumo';
 
