@@ -140,7 +140,6 @@ Q.presidential_powers = 0;
 // allows banning of non-constitutional parties
 Q.constitutional_protection = 0;
 Q.pki_banned = 0;
-Q.katolik_banned = 0;
 
 // coups and capital strikes happen when you upset the right or the capitalists too much with your policies. they're an additional check on your policies, when purely electoral checks don't suffice.
 // when coup_progress reaches 10 or capital_strike_progress reaches 10, there's a special event that launches the coup.
@@ -457,7 +456,7 @@ Q.next_election_time = 5;
 Q.next_congress_year = 1951;
 Q.next_congress_month = 'May';
 Q.vice_chair = 'Sarmidi Mangunsarkoro';
-Q.gensec = 'Hadikusumo';
+Q.gensec = ' Sukri Hadikusumo';
 
 // government affairs timers
 Q.agricultural_policy_timer = 0;
@@ -474,9 +473,9 @@ Q.shuffle_cabinet_timer = 0;
 Q.social_welfare_timer = 0;
 Q.war_guilt_timer = 0;
 Q.womens_rights_timer = 0;
-Q.homosexual_rights_timer = 0;
 Q.economic_democracy_timer = 0;
 Q.coalition_affairs_timer = 0;
+
 // event timers
 Q.emergency_cuts_timer = 0;
 Q.unemployment_insurance_timer = 0;
@@ -488,7 +487,7 @@ Q.march_on_berlin_timer = 0;
 
 // all the initial advisors are centrists.
 Q.sidik_advisor = 1; 
-Q.hadikusumo_advisor = 1; 
+Q.sarmidi_advisor = 1; 
 Q.sidik_dead = 0;
 Q.hilferding_advisor = 1; // Rudolf Hilferding
 
