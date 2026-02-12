@@ -1,13 +1,13 @@
-title: Otto Wels
+title: Sidik Djojosukarto
 is-pinned-card: true
-tags: advisor, centrist
-card-image: img/portraits/WelsOtto.jpg
-view-if: wels_advisor = 1
+tags: advisor, sidik
+card-image: img/portraits/sidik.jpg
+view-if: sidik_advisor = 1
 new-page: true
 
-= Otto Wels
+= Sidik Djojosukarto
 
-Wels is the long-time chairman of the SPD. He is a gifted organizer and a member of the centrist faction.
+Sidik Djojosukarto is the [? if pni_leader == "Sidik Djojosukarto": current ?][? if pni_leader != "Sidik Djojosukarto": former ?] chairman of the <span style="color: #990000;">**PNI**</span>. He is a gifted organizer, experienced in leading mass organizations and guerilla groups.
 
 - @clear_agenda
 - @party_discipline

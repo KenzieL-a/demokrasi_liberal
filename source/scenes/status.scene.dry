@@ -19,6 +19,8 @@ if (Q.economic_growth) {
 <div style="text-align: center;">Chairman: [+ pni_leader +]</div>
 [? if pni_leader == "Sidik Djojosukarto": <div><img src="img/portraits/sidik.jpg" alt="Sidik Djojosukarto" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
+
+
 = Status
 
 Resources available: [+ resources +]
