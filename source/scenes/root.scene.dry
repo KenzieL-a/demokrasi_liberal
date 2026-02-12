@@ -456,6 +456,8 @@ Q.next_election_time = 5;
 
 Q.next_congress_year = 1951;
 Q.next_congress_month = 5;
+Q.vice_chair = 'Sarmidi Mangunsarkoro';
+Q.gensec = 'Hadikusumo';
 
 // government affairs timers
 Q.agricultural_policy_timer = 0;

@@ -19,8 +19,11 @@ if (Q.economic_growth) {
 <div style="text-align: center;">Chairman: [+ pni_leader +]</div>
 [? if pni_leader == "Sidik Djojosukarto": <div><img src="img/portraits/sidik.jpg" alt="Sidik Djojosukarto" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
-Vice-Chairman: Sarmidi Mangunsarkoro
-General Secretary: Hadikusumo
+Vice-Chairman: 
+<div style="text-align: left;margin-top: -15px;">[+ vice_chair +]</div>
+
+General Secretary: 
+<div style="text-align: left;margin-top: -15px;">[+ gensec +]</div>
 
 Next Congress: [+ next_congress_month +] [+ next_congress_year +]
 
