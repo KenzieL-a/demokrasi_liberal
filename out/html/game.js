@@ -171,13 +171,12 @@
         
         if (!Q) return baseTooltip.explanationText;
         
-        if (searchString === 'SLPP' && Q.slpp_relation !== undefined) {
-            var relationText = getRelationshipText(Q.slpp_relation);
-            var ideologyText = getIdeologyText(Q.slpp_ideology);
-            return baseTooltip.explanationText + '<br>Ideology: ' + ideologyText + '<br>Relation: ' + relationText;
+        if (searchString === 'PKI' && Q.pki_relation !== undefined) {
+            var relationText = getRelationshipText(Q.pki_relation);
+            return baseTooltip.explanationText + '<br>Relation: ' + relationText;
         }
 
-                return baseTooltip.explanationText;
+        return baseTooltip.explanationText;
     }
 
     function applyWholesome(str) {
