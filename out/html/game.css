@@ -322,6 +322,7 @@ blockquote + blockquote.attribution {
 .delete_button {
 }
 
+/* tooltips from originalname/Dynamic Dev */
 .mytooltip {
   position: relative;
   cursor: pointer;
