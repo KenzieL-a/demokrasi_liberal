@@ -2,6 +2,7 @@ title: The PKI Under New Leadership
 subtitle: The revival of the PKI?
 new-page: true
 tags: event
+max-visits: 1
 face-image: img/old-pki.jpg
 view-if: year == 1951 and month >= 2
 
