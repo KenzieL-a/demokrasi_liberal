@@ -19,7 +19,7 @@ if (Q.economic_growth) {
 <div style="text-align: center;">Chairman: [+ pni_leader +]</div>
 [? if pni_leader == "Sidik Djojosukarto": <div><img src="img/portraits/sidik.jpg" alt="Sidik Djojosukarto" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
-Vice-Chairman: 
+Deputy Chairman: 
 <div style="text-align: left;margin-top: -15px;">[+ vice_chair +]</div>
 
 General Secretary: 
@@ -131,7 +131,7 @@ Economic growth: [+ economic_growth_2 +]%
 = Cabinet
 
 <div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": <span style="color: #990000;">[+ chancellor +]</span>?][? if chancellor_party == "Masyumi": <span style="color: #000000;">[+ chancellor +]</span>?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
-[? if chancellor == "Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
+[? if chancellor == "Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?][? if chancellor == "Susanto": <div><img src="img/portraits/susanto.jpg" alt="Susanto" style="width: 60%;display: block;margin: auto;margin-bottom: 5px;"></div> ?]
 
 Minister of Foreign Affairs: 
 <div style="text-align: left;margin-top: -15px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
