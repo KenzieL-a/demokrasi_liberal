@@ -182,12 +182,12 @@ Q.classes = ['rural', 'workers', 'santri', 'middle', 'aristocrats', 'christians'
 Q.parties = ['pni', 'pki', 'masyumi', 'psii', 'psi', 'kristen', 'katolik', 'other'];
 
 // Support for party by social group
-// they don't have to sum to 100 since the electoral calculations will be normalimasyumied.
+// they don't have to sum to 100 since the electoral calculations will be normalized.
 Q.workers_pni = 50;
-Q.workers_pki = 30;
+Q.workers_pki = 20;
 Q.workers_masyumi = 5;
-Q.workers_psii = 0;
-Q.workers_psi = 15;
+Q.workers_psii = 3;
+Q.workers_psi = 10;
 Q.workers_kristen = 0;
 Q.workers_katolik = 0;
 Q.workers_other = 15;
@@ -203,7 +203,7 @@ Q.santri_other = 10;
 
 Q.middle_pni = 35;
 Q.middle_pki = 0;
-Q.middle_masyumi = 10;
+Q.middle_masyumi = 5;
 Q.middle_psii = 0;
 Q.middle_psi = 3;
 Q.middle_kristen = 0.75;
