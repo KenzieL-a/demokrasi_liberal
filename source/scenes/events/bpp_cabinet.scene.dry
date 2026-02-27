@@ -23,7 +23,7 @@ Now the real negotiations began on the distribution of seats in the cabinet.
 
 @pm_bpp
 face-image: img/portraits/susanto.jpg
-on-arrival: pni_in_government = 1; chancellor = "Susanto"
+on-arrival: pni_in_government = 1; chancellor = "Susanto"; chancellor_party = "PNI"
 
 
 
