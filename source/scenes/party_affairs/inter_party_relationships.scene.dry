@@ -13,7 +13,7 @@ max-visits: 12
 The <span style="color: #990000;">**PNI**</span> cannot govern by itself yet, because we do not have an electoral majority. We can reach out and build additional connections with other parties, or perhaps we can stand alone.
 
 - @nasrani: Work together with the <span style="color: #66B2FF;">Christian</span> and <span style="color: #660000;">Catholic </span>parties.
-- @islam: Warm our relations with the <span style="color: #000000;">Islamic</span> parties.
+- @islam: The <span style="color: #000000;">Islamic</span> parties.
 - @other: Strengthen our bonds with other smaller parties.
 - @pki: Work towards repairing relationships with the <span style="color: #c00000;">Communist</span> Party.
 - @pni_alone: The <span style="color: #990000;">PNI</span> can stand alone for now.
@@ -36,21 +36,45 @@ on-arrival: resources -= 1; psi_relation += 5*(1 - dissent); pir_relation += 5*(
 Though electorally small, allying the smaller parties like the <span style="color: #FF6666;">**PSI**</span> or the <span style="color: #FF9933;">**PIR**</span> can be crucial in forming cabinet coalitions.
 
 @islam
+
+- @masyumi_ties: Meet with their leadership to develop closer ties with the <span style="color: #000000;">**Masjumi**</span>.
+- @sukiman_connections: Soekiman, the head of the <span style="color: #000000;">**Masjumi**</span> legislative branch, is more in line with our current leadership. Perhaps we can establish connections with him?
+- @natsir_connections: Natsir, the head of the <span style="color: #000000;">**Masjumi**</span> executive branch, is more in line with our current leadership. Perhaps we can establish connections with him?
+- @sukiman_connections1: The older Radicals, men like Sidik and Sartono, are seen as more cooperative than other <span style="color: #990000;">**PNI**</span> leaders by the <span style="color: #000000;">**Masjumi**</span> legislative branch. Perhaps we can use them to [? if masyumi_ideology >= 41: appease the Sukimanite <span style="color: #000000;">**Masjumi**</span> leadership? ?][? if masyumi_ideology <= 40: empower Sukiman? ?]
+- @natsir_connections1: The younger Moderates, led by Wilopo, are seen as more cooperative than other <span style="color: #990000;">**PNI**</span> leaders by the <span style="color: #000000;">**Masjumi**</span> executive branch. Perhaps we can use Wilopo to [? if masyumi_ideology <= 40: appease the Natsirite <span style="color: #000000;">**Masjumi**</span> leadership? ?][? if masyumi_ideology >= 41: empower Natsir? ?]
+
+@masyumi_ties
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 1; masyumi_ideology -= 2
+on-arrival: resources -= 1
 go-to: masyumi_op if not pni_in_government and masyumi_in_government; masyumi_1 if pni_in_government and masyumi_in_government
 
 @masyumi_op
-on-arrival: masyumi_relation += 5*(1 - dissent); psii_relation += 3*(1 - dissent); wilopo_strength += 3
+on-arrival: masyumi_relation += 5*(1 - dissent); psii_relation += 3*(1 - dissent)
 
-We are currently in opposition to the <span style="color: #000000;">**Masyumi**</span> and our relations remain cold. However this may change.
+We are currently in opposition to the <span style="color: #000000;">**Masjumi**</span> and our relations remain cold. However this may change.
 
 @masyumi_1
-on-arrival: masyumi_relation += 8*(1 - dissent); psii_relation += 5*(1 - dissent); wilopo_strength += 3
+on-arrival: masyumi_relation += 8*(1 - dissent); psii_relation += 5*(1 - dissent)
 
 We are currently coalition partners with them, so improving relations comes naturally.
+
+@sukiman_connections
+subtitle: -1 resources
+choose-if: resources >= 1; wilopo_dissent <= 20
+unavailable-subtitle: [+ if resources <= 1: Not enough resources. +][+ if wilopo_dissent >= 20: The party is unwilling. +]
+on-arrival: resources -= 1
+
+@natsir_connections
+
+@sukiman_connections1
+
+@natsir_connections1
+subtitle: -1 resources
+choose-if: resources >= 1; wilopo_dissent <= 20
+unavailable-subtitle: [+ if resources <= 1: Not enough resources. +][+ if wilopo_dissent >= 20: The party is unwilling. +]
+on-arrival: resources -= 1; wilopo_strength += 3
 
 @nasrani
 subtitle: -1 resources
