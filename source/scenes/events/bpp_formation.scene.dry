@@ -19,7 +19,7 @@ on-display: {!
 
 = A Coalition of Nationalist Parties?
 
-After the fall of the <span style="color: #000000;">Natsir</span> cabinet, the <span style="color: #c00000;">**PKI**</span> has been advocating for a broad nationalist cabinet with the exclusion of the <span style="color: #000000;">**Masyumi**</span>. This hypothetical cabinet will be led by the <span style="color: #990000;">**PNI**</span> consisting of the various smaller nationalist parties, with the toleration or even the participation of the <span style="color: #c00000;">**PKI**</span>. Thus a meeting was held, attended by the <span style="color: #c00000;">**PKI**</span> and other political parties, notably the <span style="color: #003319;">**PSII**</span>, the <span style="color: #FF3333;">**Murba**</span> party, the <span style="color: #FF6666;">**Labour**</span> party, and the <span style="color: #FFCC99;">**Parindra**</span>, to discuss the possibility of such a proposition. 
+After the fall of the <span style="color: #000000;">Natsir</span> cabinet, the <span style="color: #c00000;">**PKI**</span> has been advocating for a broad nationalist cabinet with the exclusion of the <span style="color: #000000;">**Masjumi**</span>. This hypothetical cabinet will be led by the <span style="color: #990000;">**PNI**</span> consisting of the various smaller nationalist parties, with the toleration or even the participation of the <span style="color: #c00000;">**PKI**</span>. Thus a meeting was held, attended by the <span style="color: #c00000;">**PKI**</span> and other political parties, notably the <span style="color: #003319;">**PSII**</span>, the <span style="color: #FF3333;">**Murba**</span> party, the <span style="color: #FF6666;">**Labour**</span> party, and the <span style="color: #FFCC99;">**Parindra**</span>, to discuss the possibility of such a proposition. 
 
 - @form: The BPP is formed.
 
@@ -27,10 +27,10 @@ After the fall of the <span style="color: #000000;">Natsir</span> cabinet, the <
 
 The meeting has resulted in the formation of the <span class="tooltip-text" title="Consultative Body of Parties">BPP</span>, a confederative association of political parties consisting of the meeting's atendees. These parties are loosely joined together on the basis of a broadly nationalist Common Program which called for a "truly independent foreign policy", freedom from the Round Table Conference Agreement, the return of West Irian to Indonesia, mass nationalizations and industrializations, and a "just distribution of land to peasants".
 
-The <span style="color: #c00000;">**PKI**</span> leadership has approached us and invited the <span style="color: #990000;">**PNI**</span> to join this proposition. However, if we are to join this coalition, the <span style="color: #000000;">**Masyumi**</span> might take this move as a sign of us opposing and distancing away from them.
+The <span style="color: #c00000;">**PKI**</span> leadership has approached us and invited the <span style="color: #990000;">**PNI**</span> to join this proposition. However, if we are to join this coalition, the <span style="color: #000000;">**Masjumi**</span> might take this move as a sign of us opposing and distancing away from them.
 
-- @join: Our negotiation with the <span style="color: #000000;">**Masyumi**</span> is going no where. Join the BPP.
-- @no-join: [? if nego_natsir != 1: We need to reconciliate with the <span style="color: #000000;">**Masyumi**</span> to form a truly "broad" cabinet. ?] Refuse the offer.
+- @join: Our negotiation with the <span style="color: #000000;">**Masjumi**</span> is going no where. Join the BPP.
+- @no-join: [? if nego_natsir != 1: We need to reconciliate with the <span style="color: #000000;">**Masjumi**</span> to form a truly "broad" cabinet. ?] Refuse the offer.
 
 @join
 subtitle: This will prevent us from forming a cabinet with the Masyumi.
@@ -42,6 +42,6 @@ The <span style="color: #990000;">**PNI**</span> has accepted the <span style="c
 
 @no-join
 
-Such a coalition cabinet is not realistic nor suitable at the moment. [? if nego_natsir != 1: We will continue negotiations with the <span style="color: #000000;">**Masyumi**</span> to form a truly "national coalition cabinet on a **broad** basis" just like the President wanted. ?]
+Such a coalition cabinet is not realistic nor suitable at the moment. [? if nego_natsir != 1: We will continue negotiations with the <span style="color: #000000;">**Masjumi**</span> to form a truly "national coalition cabinet on a **broad** basis" just like the President wanted. ?]
 
 
