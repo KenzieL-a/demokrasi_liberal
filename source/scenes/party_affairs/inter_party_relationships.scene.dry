@@ -59,12 +59,12 @@ on-arrival: resources -= 1
 go-to: masyumi_op if not pni_in_government and masyumi_in_government; masyumi_1 if pni_in_government and masyumi_in_government
 
 @masyumi_op
-on-arrival: masyumi_relation += 2*(wilopo_strength : 10); 
+on-arrival: masyumi_relation += 2*(wilopo_strength / 10); 
 
 We are currently in opposition to the <span style="color: #000000;">**Masjumi**</span> and our relations remain cold. However this may change.
 
 @masyumi_1
-on-arrival: masyumi_relation += 4*(wilopo_strength : 10); 
+on-arrival: masyumi_relation += 4*(wilopo_strength / 10); 
 
 We are currently coalition partners with them, so improving relations comes naturally.
 
