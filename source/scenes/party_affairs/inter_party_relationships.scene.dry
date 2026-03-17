@@ -36,6 +36,11 @@ The <span style="color: #c00000;">**Communists**</span> have always been our clo
 @soviet_ambassador
 
 @other
+
+- @pir: -
+- @prn: -
+- @buruh: -
+
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
