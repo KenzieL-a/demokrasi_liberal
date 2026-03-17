@@ -47,6 +47,10 @@ choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 on-arrival: resources -= 1; psi_relation += 5*(1 - dissent); pir_relation += 5*(1 - dissent)
 
+@prn
+
+@buruh
+
 Though electorally small, allying the smaller parties like the <span style="color: #FF6666;">**PSI**</span> or the <span style="color: #FF9933;">**PIR**</span> can be crucial in forming cabinet coalitions.
 
 @islam
