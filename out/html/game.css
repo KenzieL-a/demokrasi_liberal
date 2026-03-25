@@ -622,7 +622,7 @@ table {
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 
   width: max-content;
-  max-width: 170px;
+  max-width: 300px;
   pointer-events: none;
 }
 
