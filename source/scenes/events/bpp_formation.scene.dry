@@ -1,9 +1,9 @@
 title: A Coalition of Nationalist Parties?
-subtitle: The PKI and other smaller parties gathers..
+subtitle: Various nationalist parties gathers..
 new-page: true
 tags: event
 max-visits: 1
-view-if: natsir_vonc = 1
+view-if: nego_natsir = 1
 on-display: {!  
     var cardEl = document.createElement('div');  
     cardEl.className = "face-figure2";  
@@ -34,7 +34,7 @@ The <span style="color: #c00000;">**PKI**</span> leadership has approached us an
 
 @join
 subtitle: This will prevent us from forming a cabinet with the Masyumi.
-unavailable-subtitle: Most of Sartono's time is already spent on bridging the PNI and the Masyumi.
+unavailable-subtitle: Much of the party deemed this as unrealistic.
 choose-if: nego_natsir != 1
 on-arrival: partindo_strength += 5; bpp_join = 1;
 
