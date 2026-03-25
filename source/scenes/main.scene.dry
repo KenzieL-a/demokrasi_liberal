@@ -50,7 +50,7 @@ max-cards: 4
 
 @party
 title: Party Affairs
-card-image: img/congress1963.jpeg
+card-image: img/pni_conference.webp
 is-deck: true
 
 - #party_affairs
