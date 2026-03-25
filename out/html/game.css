@@ -323,46 +323,6 @@ blockquote + blockquote.attribution {
 .delete_button {
 }
 
-/* tooltips from originalname/Dynamic Dev */
-.mytooltip {
-  position: relative;
-  cursor: pointer;
-  background-color: transparent;
-  padding: 2px 1px;
-}
-.mytooltip:hover { background-color: rgb(100, 140, 220); }
-
-.mytooltip .mytooltiptext {
-  position: fixed;
-  z-index: 999999;
-  width: 120px;
-  background: #fff4e6;
-  color: #3b1f0a;
-  text-align: left;
-  border-radius: 8px;
-  padding: 12px 14px;
-  opacity: 0;
-  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
-  border: 1px solid #b22222;
-  pointer-events: none;
-  font-size: 14px !important;
-  line-height: 1.5em !important;
-  font-weight: 500 !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  transform: translateY(5px);
-  text-align: center;
-}
-.mytooltip:hover .mytooltiptext { opacity: 1; }
-.mytooltip .mytooltiptext img { display: block; margin: 0 auto 4px auto; max-width: 90%; height: auto; }
-
-.mytooltip .mytooltiptext {
-  bottom: auto;
-  top: calc(var(--mouse-y, 0px) - 20px);
-  left: calc(var(--mouse-x, 0px));
-  transform: translate(-50%, -100%);
-}
-
-
 /*
  * Card stuff for dendrynexus
  * 
@@ -632,6 +592,46 @@ table {
 }
 
 .tooltip-text {
-    text-decoration: underline;
-    text-decoration-style: dotted;
+  cursor: help;
+  text-decoration: dotted underline;
+  user-select: none;
+  position: relative; 
+}
+
+/* New tooltip box (reads from data-tooltip, which we'll auto-fill from title) */
+.tooltip-text[data-tooltip]::after {
+  content: attr(data-tooltip);
+  white-space: pre-line; /* \n becomes line breaks */
+  display: none;
+
+  position: absolute;
+  left: 0;
+  top: 1.8em;
+  z-index: 9999;
+
+  /* similar styling to your existing UI */
+  background-color: var(--content-bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+
+  font-size: 0.82em;
+  line-height: 1.25;
+
+  padding: 0.35em 0.5em;
+  border-radius: 4px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+
+  width: max-content;
+  max-width: 170px;
+  pointer-events: none;
+}
+
+.tooltip-text[data-tooltip]:hover::after,
+.tooltip-text[data-tooltip]:focus::after {
+  display: block;
+}
+
+/* Optional: make highlight slightly different on hover */
+.tooltip-text:hover {
+  text-decoration: underline;
 }
