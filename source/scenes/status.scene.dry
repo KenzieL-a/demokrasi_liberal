@@ -187,12 +187,12 @@ Others: [+ other_votes +]%
     <table style="text-align:center; border-spacing: 0.3em;">
             <tr>
             <th>Party</th>
-            Rural
-            Workers
-            Middle Class
-            Aristocrats
-            *Santri*
-            Christians
+            <th>Rural</th>
+            <th>Workers</th>
+            <th>Middle Class</th>
+            <th>Aristocrats</th>
+            <th>*Santri*</th>
+            <th>Christians</th>
         </tr>
         <tr>
             <td><span style="color: #990000;">**PNI**</span></td>
