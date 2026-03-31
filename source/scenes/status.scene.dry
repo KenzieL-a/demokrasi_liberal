@@ -184,7 +184,7 @@ Others: [+ other_votes +]%
 
 
 <div style="overflow-x:auto;">
-    <table style="text-align:center; border-spacing: 0.3em;">
+    <table style="text-align:center; border-spacing: 0.3em; max-height: 15px;">
             <tr>
             <th>Party</th>
             <th>Rural</th>
