@@ -426,7 +426,7 @@ a.card:focus .card-tooltip, a.card:hover .card-tooltip {
   overflow: hidden;
 }
 .face-img {
-  /*max-width: 150px;*/
+  max-width: 150px;
   vertical-align: bottom;
   object-fit: cover;
 }
