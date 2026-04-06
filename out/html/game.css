@@ -419,15 +419,14 @@ a.card:focus .card-tooltip, a.card:hover .card-tooltip {
   display: inline-block;
   border: 5px solid var(--card-border-color);
   float: left;
-  max-width: 35%;
+  max-width: 150px;
   /*max-height: 180px;*/
   margin-right: 1em;
   margin-bottom: 0.5em;
   overflow: hidden;
 }
 .face-img {
-  max-width: 150px;
-  vertical-align: bottom;
+  vertical-align: top;
   object-fit: cover;
 }
 
