@@ -263,7 +263,7 @@
   };
 
   window.toggleNews = function toggleNews() {
-      const elements = document.querySelectorAll('.dnvp');
+      const elements = document.querySelectorAll('.global');
       const elements2 = document.querySelectorAll('.other');
       const button = document.getElementById('news_tab');
 
