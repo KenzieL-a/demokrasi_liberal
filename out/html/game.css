@@ -419,7 +419,6 @@ a.card:focus .card-tooltip, a.card:hover .card-tooltip {
   display: inline-block;
   border: 5px solid var(--card-border-color);
   float: left;
-  max-width: 150px;
   /*max-height: 180px;*/
   margin-right: 1em;
   margin-bottom: 0.5em;
