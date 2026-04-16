@@ -3,7 +3,7 @@ subtitle: A new *formateur(s)* is to be appointed.
 new-page: true
 tags: event
 max-visits: 1
-view-if: month = 4 and year = 1951
+view-if: month = 5 and year = 1951
 
 = Negotiations for a New Cabinet
 
