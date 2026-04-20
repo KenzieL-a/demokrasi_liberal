@@ -431,7 +431,6 @@ a.card:focus .card-tooltip, a.card:hover .card-tooltip {
   display: block;
   border: 5px solid var(--card-border-color);
   float: left;
-  /*max-height: 180px;*/
   margin-right: 1em;
   margin-bottom: 0.5em;
   overflow: hidden;
