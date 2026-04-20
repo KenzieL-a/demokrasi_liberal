@@ -428,8 +428,8 @@ a.card:focus .card-tooltip, a.card:hover .card-tooltip {
 
 .face-figure2 {
   vertical-align: top;
-  display: inline-block;
-  border: 5px solid #ccc;
+  display: block;
+  border: 5px solid var(--card-border-color);
   float: left;
   /*max-height: 180px;*/
   margin-right: 1em;
