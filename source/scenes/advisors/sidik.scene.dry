@@ -15,6 +15,7 @@ Sidik Djojosukarto was born in Blitar, East Java, on June 7, 1908. Before the wa
 - @emergency_fundraising
 - @snap_election
 - @end_game
+- @election
 - @root: Return to main
 
 @clear_agenda
@@ -65,3 +66,7 @@ We have called for new elections, set for [+ next_election_month : month +] [+ n
 @end_game
 title: end
 go-to: 1934_end
+
+@election
+title: election test
+go-to: election_1928
