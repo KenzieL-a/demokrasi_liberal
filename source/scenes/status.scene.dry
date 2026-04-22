@@ -105,7 +105,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="National People's Party" style="color: #545454;"><strong>PRN</strong></span>!}: [+ prn_relation : relationships +]
 
-{!<span class="tooltip-text" title="Labour Party" style="color: #ff0000;"><strong>Buruh</strong></span>!}: [+ buruh_relation : relationships +]
+<img src="img/icons/murba.png" style="height: 10px;"> {!<span class="tooltip-text" title="Proletarian Party" style="color: #ff3333;"><strong>Murba</strong></span>!}: [+ murba_relation : relationships +]
 
 =Party Leadership
 
@@ -127,7 +127,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="National People's Party" style="color: #545454;"><strong>PRN</strong></span>!}: Djody Gondokusumo (Nationalism)
 
-{!<span class="tooltip-text" title="Proletarian Party" style="color: #ff3333;"><strong>Murba</strong></span>!}: Sukarni (Tan Malaka Thought)
+<img src="img/icons/murba.png" style="height: 10px;"> {!<span class="tooltip-text" title="Proletarian Party" style="color: #ff3333;"><strong>Murba</strong></span>!}: Sukarni (Tan Malaka Thought)
 
 @paramilitaries
 

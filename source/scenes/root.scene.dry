@@ -104,9 +104,9 @@ Q.psii_relation = 42;
 Q.kristen_relation = 60;
 Q.katolik_relation = 57;
 Q.pki_relation = 30;
-Q.pir_relation = 60;
+Q.pir_relation = 55;
 Q.prn_relation = 60;
-Q.buruh_relation = 52;
+Q.murba_relation = 52;
 
 
 Q.pki_leader = "Alimin";
