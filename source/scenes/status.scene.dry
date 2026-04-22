@@ -136,8 +136,8 @@ Economic growth: [+ economic_growth_2 +]%
 <div style="text-align: center;">President: [+ president +]</div>
 <div style="text-align: center;">Vice-President: [+ vice_pres +]</div>
 <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;justify-content: center;">
-<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 40%;"> 
-<img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 40%;"> 
+<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
+<img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 45%;border: 5px solid var(--card-border-color);"> 
 </div> 
 
 = Cabinet
