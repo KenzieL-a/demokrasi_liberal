@@ -187,7 +187,7 @@ data = [
         "legend": "PKI",
         "name": "PKI",
         "seats": Math.round(Q.pki_r*5),
-    }
+    },
     {
         "id": "murba",
         "legend": "Murba",
