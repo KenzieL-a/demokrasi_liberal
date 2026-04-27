@@ -76,12 +76,18 @@ Sukiman has accepted our compromise proposal. Now we must who this third party w
 - @wongsonegoro: Wongsonegoro
 
 @assaat
-subtitle: Former acting President of the Republic of Indonesia and Minister of Internal Affairs in the Natsir cabinet.
+subtitle: {!<div style="display: flex;justify-content: left;">
+<img src="img/portraits/assaat.jpg" style="width: 100px;border: 5px solid var(--card-border-color);margin: 10px"> 
+<div style="width: 300px;">Former acting President of the Republic of Indonesia and Minister of Internal Affairs in the Natsir cabinet.</div>
+</div>!}
 
 Assaat is appointed as Prime Minister. Now we must select our ministries.
 
 @wongsonegoro
-subtitle: Former governor of Central Java, an experienced minister and leader of the <span style="color: #894400;">**PIR**</span>
+subtitle: {!<div style="display: flex;justify-content: left;">
+<img src="img/portraits/wongsonegoro.jpg" style="width: 100px;border: 5px solid var(--card-border-color);margin: 10px"> 
+<div style="width: 300px;">Former governor of Central Java, an experienced minister and leader of the <span style="color: #894400;">**PIR**</span></div>
+</div>!}
 
 Wongsonegoro is appointed as Prime Minister. Now we must select our ministries.
 
