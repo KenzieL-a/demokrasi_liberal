@@ -123,9 +123,9 @@ Economic growth: [+ economic_growth_2 +]%
 
 <img src="img/icons/katolik.png" style="height: 10px;"> {!<span class="tooltip-text" title="Catholic Party" style="color: #330000;"><strong>Katolik</strong></span>!}: I. J. Kasimo (Catholic Democracy)
 
-{!<span class="tooltip-text" title="Greater Indonesia Union Party" style="color: #894400;"><strong>PIR</strong></span>!}: Wongsonegoro (Nationalism)
+<img src="img/icons/PIR.png" style="height: 10px;"> {!<span class="tooltip-text" title="Greater Indonesia Union Party" style="color: #FF9933;"><strong>PIR</strong></span>!}: Wongsonegoro (Nationalism)
 
-{!<span class="tooltip-text" title="National People's Party" style="color: #545454;"><strong>PRN</strong></span>!}: Djody Gondokusumo (Nationalism)
+<img src="img/icons/PRN.png" style="height: 10px;"> {!<span class="tooltip-text" title="National People's Party" style="color: #545454;"><strong>PRN</strong></span>!}: Djody Gondokusumo (Right-wing Nationalism)
 
 <img src="img/icons/murba.png" style="height: 10px;"> {!<span class="tooltip-text" title="Proletarian Party" style="color: #ff3333;"><strong>Murba</strong></span>!}: Sukarni (Tan Malaka Thought)
 
