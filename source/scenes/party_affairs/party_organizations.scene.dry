@@ -6,7 +6,6 @@ view-if: party_organizations_timer <= 0
 on-arrival: month_actions += 1; party_organizations_timer = 6;
 card-image: img/organization.png
 max-visits: 6
-#subtitle: Outside of electoral politics, the <span style="color: #990000;">**PNI**</span> runs a social world onto itself.
 
 = Party Organizations
 
@@ -14,9 +13,9 @@ In addition to being a political party, the <span style="color: #990000;">**PNI*
 
 - @newspaper: Launch our own newspaper, run by the party.
 - @newspapers: Fund our newspapers and journalists.
-- @welfare: Fund more mutual aid and welfare programs.
-- @culture: Fund sports leagues, educational, and cultural programs.
-- @youth: Support the youth organizations.
+- @welfare: Finance more mutual aid and welfare programs.
+- @schools: Support the *Taman Siswa* schools.
+- @youth: Allocate funds to our youth organizations.
 - @nothing: Do not increase funding for any program.
 - @easy_discard
 
@@ -24,43 +23,45 @@ In addition to being a political party, the <span style="color: #990000;">**PNI*
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
 subtitle: -2 resources. All major parties have their own affiliated newspaper except for us.
+face-image: img/suluh.jpeg
 on-arrival: resources -= 2; newspaper = 1;
 
-We have launched our own weekly newspaper called "<span class="tooltip-text" title="Torch of Indonesia">*Suluh Indonesia*</span>". We can utilize this as one of our campaign media, effectively garnering support, especially among the middle class.
+We have launched our own weekly newspaper veritably named "<span class="tooltip-text" title="Torch of Indonesia">*Suluh Indonesia*</span>". We can utilize this as one of our campaign media, effectively garnering support, especially among the middle class.
 
 @newspapers
+view-if: newspaper = 1
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
 subtitle: -1 resources
 on-arrival: resources -= 1; media_timer = 0;
 go-to: media
 
-
 @welfare
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
 subtitle: -1 resources
-on-arrival: resources -= 1; workers_aid += 1; unemployed_pni += 5*(1 - dissent);
+on-arrival: resources -= 1; workers_aid += 1; workers_pni += 4*(1 - dissent); unemployed_pni += 5*(1 - dissent);
 
 We have increased funding to Workers' Welfare. [? if black_thursday_seen > 0 : In an age of economic crisis, this will be helpful for improving our standing among the unemployed. ?]
 
-@culture
+@schools
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
-subtitle: -1 resources
-on-arrival: resources -= 1; cultural_organizations += 1; left_dissent -= 6; center_dissent -= 6; labor_dissent -= 6; reformist_dissent -= 6; neorevisionist_dissent -= 6
+subtitle: -1 resources. We shall support the education of the future generation of patriots.
+face-image: img/taman_siswa.jpg
+on-arrival: resources -= 1; taman_siswa += 1; left_dissent -= 6; center_dissent -= 6; labor_dissent -= 6; reformist_dissent -= 6; 
 
-It is not enough for the <span style="color: #990000;">**PNI**</span> to solely be a political party. The Worker Singer's League, Worker's Sports, and our schools and libraries are crucial to our members' lives. Funding these organizations makes our members more committed to the party, even when our policies might not be to their liking.
+*Taman Siswa* was founded by Ki Hadjar Dewantara as form of struggle against the colonizers, not through physical struggle nor politics, rather through education and culture. By supporting these schools we can usher in a new generation of bright-minded patriots.
 
-[? if sa_strength > 500 : However, it feels frivolous to spend on sports and choirs when the fascists are murdering us in the streets. ?]
+#to do: boost overall national education
 
 @youth
 choose-if: resources > 0
 unavailable-subtitle: Not enough resources.
 subtitle: -1 resources. We have the reputation of being a party of veterans. We can change that.
-on-arrival: resources -= 1; rb_strength += 50; rb_militancy += 0.02; young_socialists += 1; left_strength += 5; neorevisionist_strength += 5; radicalization += 1;
+on-arrival: resources -= 1; young_marhaenists += 1; partindo_strength += 5; wilopo_strength += 5; radicalization += 1;
 
-Our new youth members flock to the left or neorevisionist wings of the party, and also bring new radicalism to the Reichsbanner.
+We have funded our youth organizations: the <span style="color: #990000;">Indonesian Democratic Youth</span> and the <span style="color: #990000;">Marhaenist Youth Movement</span>. Their membership count has increased so as the <span style="color: #990000;">**PNI**</span>'s. Our new young members flock to the <span style="color: #7c0000;">Radicalist</span> wing of the party, though some of the more educated youth have joined the <span style="color: #ff6d50;">Moderates</span>. 
 
 @nothing
 

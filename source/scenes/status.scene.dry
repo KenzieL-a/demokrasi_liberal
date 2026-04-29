@@ -65,7 +65,7 @@ Party dues: [+ dues +]
 
 Internal dissent: [+ dissent_percent : dissent +]
 
-{!<span class="tooltip-text" title="Wilopo's faction mostly consists of moderate, younger figures of the party.">Wilopo Group</span>!} (<span style="color: #ff5050;">**Moderates**</span>) 
+{!<span class="tooltip-text" title="Wilopo's faction mostly consists of moderate, younger figures of the party.">Wilopo Group</span>!} (<span style="color: #ff6d50;">**Moderates**</span>) 
 <div style="text-align: left;margin-top: -15px;">Strength: [+ wilopo_strength : strength +]</div>
 <div style="text-align: left;margin-top: 0px;">Dissent: [+ wilopo_dissent : dissent +]</div>
 
