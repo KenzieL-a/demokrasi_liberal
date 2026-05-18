@@ -143,6 +143,8 @@ Economic growth: [+ economic_growth_2 +]%
 <img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 45%;border: 5px solid var(--card-border-color);"> 
 </div> 
 
+{!<svg id="reichstag_st" style="width: 500px; height: 250px;"> </svg>!}
+
 = Cabinet
 
 <div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": [+ chancellor +]?][? if chancellor_party == "Masyumi": [+ chancellor +]?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
