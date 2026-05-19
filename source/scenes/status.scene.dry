@@ -51,8 +51,6 @@ Next Congress: [+ next_congress_month +] [+ next_congress_year +]
 
 = Status
 
-{!<svg id="reichstag_st" style="width: 500px; height: 250px;"> </svg>!}
-
 Resources available: [+ resources +]
 
 Party dues: [+ dues +]
