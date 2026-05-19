@@ -207,7 +207,7 @@ const data = [
         "seats": Math.round(Q.other_r * Q.dprs_size),
     },
     {
-        "id": "kristen",
+        "id": "parkindo",
         "legend": "Parkindo",
         "name": "Parkindo",
         "seats": Math.round(Q.kristen_r * Q.dprs_size),

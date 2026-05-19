@@ -51,6 +51,8 @@ Next Congress: [+ next_congress_month +] [+ next_congress_year +]
 
 = Status
 
+{!<svg id="reichstag_st" style="width: 500px; height: 250px;"> </svg>!}
+
 Resources available: [+ resources +]
 
 Party dues: [+ dues +]
@@ -140,8 +142,6 @@ Economic growth: [+ economic_growth_2 +]%
 <img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
 <img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 45%;border: 5px solid var(--card-border-color);"> 
 </div> 
-
-{!<svg id="reichstag_st" style="width: 500px; height: 250px;"> </svg>!}
 
 = Cabinet
 
