@@ -51,7 +51,6 @@ Next Congress: [+ next_congress_month +] [+ next_congress_year +]
 
 = Status
 
-{!<svg id="reichstag_st" style="width: 500px; height: 250px;"> </svg>!}
 
 Resources available: [+ resources +]
 
@@ -120,7 +119,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 <img src="img/icons/PSII.png" style="height: 10px;"> {!<span class="tooltip-text" title="Indonesian Islamic Union Party" style="color: #003319;"><strong>PSII</strong></span>!}: Anwar Tjokroaminoto (Islamic Democracy)
 
-<img src="img/icons/PKI.png" style="height: 10px;"> {!<span class="tooltip-text" title="Indonesian Communist Party" style="color: #c00000;"><strong>PKI</strong></span>!}: [+ pki_leader +] ([? if pki_leader == "Alimin": Marxism-Leninism?][? if pki_leader == "D.N. Aidit": Maoism?])
+<img src="img/icons/PKI.png" style="height: 10px;"> {!<span class="tooltip-text" title="Indonesian Communist Party" style="color: #c00000;"><strong>PKI</strong></span>!}: [+ pki_leader +] ([+ pki_ideology +])
 
 <img src="img/icons/kristen.png" style="height: 10px;"> {!<span class="tooltip-text" title="Indonesian Christian Party (Protestant)" style="color: #66B2FF;"><strong>Parkindo</strong></span>!}: Johannes Leimena (Christian Democracy)
 
@@ -131,49 +130,6 @@ Economic growth: [+ economic_growth_2 +]%
 <img src="img/icons/PRN.png" style="height: 10px;"> {!<span class="tooltip-text" title="National People's Party" style="color: #545454;"><strong>PRN</strong></span>!}: Djody Gondokusumo (Right-wing Nationalism)
 
 <img src="img/icons/murba.png" style="height: 10px;"> {!<span class="tooltip-text" title="Proletarian Party" style="color: #ff3333;"><strong>Murba</strong></span>!}: Sukarni (Tan Malaka Thought)
-
-@paramilitaries
-
-= Government 
-
-<div style="text-align: center;">President: [+ president +]</div>
-<div style="text-align: center;">Vice-President: [+ vice_pres +]</div>
-<div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;justify-content: center;">
-<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
-<img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 45%;border: 5px solid var(--card-border-color);"> 
-</div> 
-
-= Cabinet
-
-<div style="text-align: center;">Prime Minister: [? if chancellor_party == "PNI": [+ chancellor +]?][? if chancellor_party == "Masyumi": [+ chancellor +]?] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
-[? if chancellor == "Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 50%;display: block;margin: auto;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?][? if chancellor == "Susanto": <div><img src="img/portraits/susanto.jpg" alt="Susanto" style="width: 50%;display: block;margin: auto;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?]
-
-Minister of Foreign Affairs: 
-<div style="text-align: left;margin-top: -15px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
-
-Minister of Home Affairs: 
-<div style="text-align: left;margin-top: -15px;">[+ interior_minister +] ([+ interior_minister_party +])</div>
-
-Minister of Justice: 
-<div style="text-align: left;margin-top: -15px;">[+ justice_minister +] ([+ justice_minister_party +])</div>
-
-Minister of Enlightenment: 
-<div style="text-align: left;margin-top: -15px;">[+ enlightenment_minister +] ([+ enlightenment_minister_party +])</div>
-
-Minister of Finance: 
-<div style="text-align: left;margin-top: -15px;">[+ finance_minister +] ([+ finance_minister_party +])</div>
-
-Minister of Trade and Industry: 
-<div style="text-align: left;margin-top: -15px;">[+ economic_minister +] ([+ economic_minister_party +])</div>
-
-Minister of Public Works: 
-<div style="text-align: left;margin-top: -15px;">[+ publicworks_minister +] ([+ publicworks_minister_party +])</div>
-
-Minister of Education: 
-<div style="text-align: left;margin-top: -15px;">[+ education_minister +] ([+ education_minister_party +])</div>
-
-Minister of Religious Affairs: 
-<div style="text-align: left;margin-top: -15px;">[+ religious_minister +] ([+ religious_minister_party +])</div>
 
 @polls
 on-arrival: {!
@@ -294,4 +250,56 @@ Others: [+ other_votes +]%
 </div>
 
 Support for the Republic: [+ pro_republic_disp +]%
+
+@paramilitaries
+
+= Government 
+
+<div style="text-align: center;">President: [+ president +]</div>
+<div style="text-align: center;">Vice-President: [+ vice_pres +]</div>
+<div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;justify-content: center;">
+<img src="img/portraits/soekarno.jpg" alt="Soekarno" style="width: 45%;border: 5px solid var(--card-border-color);"> 
+<img src="img/portraits/hatta.jpg" alt="Hatta" style="width: 45%;border: 5px solid var(--card-border-color);"> 
+</div> 
+
+= Cabinet
+
+<div style="text-align: center;">Prime Minister: [+ chancellor +] ([? if chancellor_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if chancellor_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
+[? if chancellor == "Natsir": <div><img src="img/portraits/natsir.jpg" alt="Natsir" style="width: 50%;display: block;margin: auto;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?][? if chancellor == "Susanto": <div><img src="img/portraits/susanto.jpg" alt="Susanto" style="width: 50%;display: block;margin: auto;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?]
+
+Minister of Foreign Affairs: 
+<div style="text-align: left;margin-top: -15px;">[+ foreign_minister +] ([+ foreign_minister_party +])</div>
+
+Minister of Home Affairs: 
+<div style="text-align: left;margin-top: -15px;">[+ interior_minister +] ([+ interior_minister_party +])</div>
+
+Minister of Justice: 
+<div style="text-align: left;margin-top: -15px;">[+ justice_minister +] ([+ justice_minister_party +])</div>
+
+Minister of Enlightenment: 
+<div style="text-align: left;margin-top: -15px;">[+ enlightenment_minister +] ([+ enlightenment_minister_party +])</div>
+
+Minister of Finance: 
+<div style="text-align: left;margin-top: -15px;">[+ finance_minister +] ([+ finance_minister_party +])</div>
+
+Minister of Trade and Industry: 
+<div style="text-align: left;margin-top: -15px;">[+ economic_minister +] ([+ economic_minister_party +])</div>
+
+Minister of Public Works: 
+<div style="text-align: left;margin-top: -15px;">[+ publicworks_minister +] ([+ publicworks_minister_party +])</div>
+
+Minister of Education: 
+<div style="text-align: left;margin-top: -15px;">[+ education_minister +] ([+ education_minister_party +])</div>
+
+Minister of Religious Affairs: 
+<div style="text-align: left;margin-top: -15px;">[+ religious_minister +] ([+ religious_minister_party +])</div>
+
+@parliament
+
+= Parliament
+
+<div style="text-align: center;">Speaker: [+ dprs_speaker +] ([? if dprs_speaker_party == "Masyumi":<span style="color: #000000;">**M**</span>?][? if dprs_speaker_party == "PNI":<span style="color: #990000;">**PNI**</span>?])</div>
+[? if dprs_speaker == "Sartono": <div><img src="img/portraits/sartono.jpg" alt="Sartono" style="width: 50%;display: block;margin: auto;margin-bottom: 5px;border: 5px solid var(--card-border-color);"></div> ?]
+
+{!<svg id="reichstag_st" style="width: 500px; height: 250px;"> </svg>!}
 

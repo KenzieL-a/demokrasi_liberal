@@ -95,8 +95,6 @@ Q.nationalimasyumiation_adopted = 0;
 Q.moderate_plan_support = 0;
 Q.moderate_plan_adopted = 0;
 
-// organimasyumiations
-
 // inter-party relations
 Q.masyumi_relation = 30;
 Q.psi_relation = 50;
@@ -110,10 +108,11 @@ Q.murba_relation = 52;
 
 
 Q.pki_leader = "Alimin";
+Q.pki_ideology = "Marxism-Leninism";
 Q.masyumi_leader = "Muhammad Natsir";
 // higher means more left
 Q.masyumi_ideology = 30;
-Q.masyumi_ideology1 = "Islamic Democracy";
+Q.masyumi_ideology1 = "Political Islam";
 Q.pni_leader = "Sidik Djojosukarto";
 
 // hmm... maybe we can play nice with Hindenburg???
@@ -256,6 +255,8 @@ Q.katolik_r = 3.9;
 Q.other_r = 42.7;
 
 Q.dprs_size = 2.32;
+Q.dprs_speaker = 'Sartono';
+Q.dprs_speaker_party = 'PNI';
 
 // diff from prev
 Q.old_pni_r = 26;
@@ -466,6 +467,8 @@ Q.next_congress_year = 1951;
 Q.next_congress_month = 'May';
 Q.vice_chair = 'Sarmidi Mangunsarkoro';
 Q.gensec = ' Sukri Hadikusumo';
+
+
 
 // government affairs timers
 Q.agricultural_policy_timer = 0;
